@@ -1,0 +1,16 @@
+# Copy this to your dbt profiles directory as profiles.yml, e.g.:
+#   mkdir -p ~/.dbt && cp dbt/profiles.yml.example ~/.dbt/profiles.yml
+# Then edit the values below to match your Supabase Session pooler string
+# from .env (same DATABASE_URL, just split into its parts).
+moonbug_bp_hub:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: aws-0-<region>.pooler.supabase.com   # from your DATABASE_URL
+      user: postgres.<project-ref>                # from your DATABASE_URL
+      password: "{{ env_var('SUPABASE_DB_PASSWORD') }}"
+      port: 5432
+      dbname: postgres
+      schema: analytics
+      threads: 4

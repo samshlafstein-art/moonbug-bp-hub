@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: raw_market
+    schema: raw_market
+    tables:
+      - name: category_benchmarks

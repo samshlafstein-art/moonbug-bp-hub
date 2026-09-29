@@ -1,0 +1,72 @@
+version: 2
+
+models:
+  - name: stg_crm__agencies
+    description: One row per agency. `holding_company` groups agencies under their parent (e.g. Halcyon Holdings), which matters for payment-speed analysis.
+    columns:
+      - name: agency_id
+        tests: [unique, not_null]
+
+  - name: stg_crm__accounts
+    description: One row per advertiser account (brand). This is the canonical account list — the ad server and finance systems spell names inconsistently, so always join back to this table via `io_number`, never by name matching.
+    columns:
+      - name: account_id
+        tests: [unique, not_null]
+      - name: agency_id
+        description: Null means the account buys direct (no agency of record).
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_crm__agencies')
+                field: agency_id
+              config:
+                where: "agency_id is not null"
+
+  - name: stg_crm__users
+    description: Brand Partnerships reps ("owners" of opportunities).
+    columns:
+      - name: user_id
+        tests: [unique, not_null]
+
+  - name: stg_crm__opportunities
+    description: >
+      One row per sales opportunity (deal). This is the spine of the pipeline
+      side of the business. `io_number` is populated only once a deal is
+      Closed Won, and is the join key into the ad server and finance systems.
+      `is_stale_open_deal` flags pipeline hygiene issues: deals still open
+      after their close date has passed.
+    columns:
+      - name: opportunity_id
+        tests: [unique, not_null]
+      - name: account_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_crm__accounts')
+                field: account_id
+      - name: stage
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Prospecting', 'RFP Received', 'Proposal Sent', 'Negotiation', 'Closed Won', 'Closed Lost']
+      - name: io_number
+        description: Populated only when is_won = true. Unique when present.
+        tests:
+          - unique:
+              config:
+                where: "io_number is not null"
+      - name: is_won
+      - name: is_stale_open_deal
+        description: True when the deal is still open but its close_date is already in the past — a pipeline hygiene issue reps should clean up.
+
+  - name: stg_crm__opportunity_stage_history
+    description: Point-in-time snapshots of an opportunity's stage and amount, used to reconstruct pipeline movement over time.
+    columns:
+      - name: history_id
+        tests: [unique, not_null]
+      - name: opportunity_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_crm__opportunities')
+                field: opportunity_id

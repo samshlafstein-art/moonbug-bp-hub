@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: stg_presale__proposals
+    description: >
+      Proposal / RFP-response header, one row per version sent. A deal can
+      have several superseded versions before an Accepted one — use
+      `status = 'Accepted'` (or the highest `version` on a won deal) to get
+      the final scope that was actually sold.
+    columns:
+      - name: proposal_id
+        tests: [unique, not_null]
+      - name: opportunity_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_crm__opportunities')
+                field: opportunity_id
+      - name: status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Superseded', 'Accepted', 'Rejected', 'Pending']
+
+  - name: stg_presale__proposal_line_items
+    description: Line-item detail within a proposal — product, IP, flight dates, and the *estimated* impressions/cost pre-sale forecast. Compare against actual delivery in `int_delivery_by_line` to see how forecast-accurate pre-sale is by platform.
+    columns:
+      - name: proposal_line_id
+        tests: [unique, not_null]
+      - name: proposal_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_presale__proposals')
+                field: proposal_id
+      - name: pricing_model
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['CPM', 'Flat Fee']

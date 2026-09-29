@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: measurement
+    schema: raw_measurement
+    description: >
+      Household-level ad measurement (mock iSpot-style vendor feed, SYNTHETIC).
+      Deliberately contains no child-level, device-level, or individual viewer
+      data: COPPA restricts profiling under-13s, not household-level
+      measurement or identifying the adult co-viewer.
+    tables:
+      - name: household_reach
+        description: One row per delivered CPM line item, measured to date.
+        columns:
+          - name: as_line_id
+            description: Ad server line item ID; joins to stg_adserver__line_items.
+            data_tests:
+              - unique
+              - not_null

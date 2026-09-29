@@ -1,0 +1,56 @@
+version: 2
+
+models:
+  - name: mart_campaign_performance
+    description: >
+      Line-level campaign performance: booked vs. delivered, effective CPM,
+      view-through rate. `is_under_delivered` flags ended lines that
+      delivered under 90% of booked — this is the model to use for a
+      post-campaign recap or to spot the FAST under-delivery pattern.
+    columns:
+      - name: as_line_id
+        tests: [unique, not_null]
+
+  - name: mart_booked_vs_delivered_vs_billed
+    description: >
+      Deal-level reconciliation across ad server, delivery, and finance.
+      One row per won deal (`io_number`). `billed_vs_booked_variance_usd`
+      should be close to zero for healthy deals; large negative values
+      usually trace back to make-good credits from under-delivery.
+    columns:
+      - name: io_number
+        tests: [unique, not_null]
+
+  - name: mart_pipeline_current
+    description: >
+      Currently open deals only, for a weekly pipeline review. Sort by
+      `weighted_amount_usd` for a realistic view of the quarter, and filter
+      `is_stale_open_deal` for hygiene cleanup.
+    columns:
+      - name: opportunity_id
+        tests: [unique, not_null]
+
+  - name: mart_category_win_rates
+    description: >
+      Win rate, sales cycle, and deal size by advertiser category (closed
+      deals). This is the model behind category prioritization calls —
+      e.g. a category with a low win rate and long cycle despite large deal
+      sizes is a deprioritization candidate.
+    columns:
+      - name: account_category
+        tests: [unique, not_null]
+
+  - name: mart_brand_lift_summary
+    description: Brand lift results (awareness, favorability, purchase intent) joined to the product/IP/platform that was actually bought, for comparing lift efficiency across buy types.
+
+  - name: mart_category_benchmarking
+    description: Moonbug's own average booked CPM/VTR by category, platform, and quarter, compared against the market benchmark for the same cut.
+
+  - name: mart_market_intel
+    description: >
+      REAL public YouTube stats (not synthetic) for Moonbug's own IPs and
+      named competitors, with recent-upload performance. `owner_group`
+      distinguishes 'Moonbug' from 'Competitor'.
+    columns:
+      - name: channel_id
+        tests: [unique, not_null]

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_presale
+    schema: raw_presale
+    tables:
+      - name: proposals
+      - name: proposal_line_items

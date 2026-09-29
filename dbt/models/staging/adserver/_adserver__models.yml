@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: stg_adserver__campaigns
+    description: >
+      Ad-server campaign header. `advertiser_name_raw` is free text from the
+      platform export and is INCONSISTENT with CRM account names (casing,
+      "Inc.", "&" vs "and", spacing). Do not join on name — join to CRM via
+      `io_number` instead (see int_campaign_delivery).
+    columns:
+      - name: as_campaign_id
+        tests: [unique, not_null]
+      - name: io_number
+        description: Links back to the CRM opportunity that was closed won to create this campaign.
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_crm__opportunities')
+                field: io_number
+
+  - name: stg_adserver__line_items
+    description: One row per booked line within a campaign (a product/IP/platform combination with its own booked impressions or guaranteed views).
+    columns:
+      - name: as_line_id
+        tests: [unique, not_null]
+      - name: as_campaign_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_adserver__campaigns')
+                field: as_campaign_id
+      - name: pricing_model
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['CPM', 'Flat Fee']
+
+  - name: stg_adserver__delivery_daily
+    description: Daily delivered impressions/views per line item. Sum by `as_line_id` and compare to `booked_impressions` (CPM lines) or `guaranteed_views` (Flat Fee lines) to get pacing / delivery rate.
+    columns:
+      - name: as_line_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_adserver__line_items')
+                field: as_line_id

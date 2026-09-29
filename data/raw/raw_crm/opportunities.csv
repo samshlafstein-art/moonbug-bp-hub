@@ -1,0 +1,486 @@
+opportunity_id,opportunity_name,account_id,agency_id,owner_id,stage,amount_usd,probability,lead_source,primary_ip,created_date,close_date,is_closed,is_won,loss_reason,io_number
+OPP0001,Larkspur Play+ - Gecko's Garage - Aug 2026,ACC043,AG002,U06,Closed Lost,118500.0,0,Upsell / renewal,Gecko's Garage,2026-07-04,2026-08-11,True,False,Budget cut,
+OPP0002,Snugglebug Market - Blippi - Oct 2025,ACC045,AG004,U08,Closed Lost,251600.0,0,Upsell / renewal,Blippi,2025-08-02,2025-10-02,True,False,No decision,
+OPP0003,Button & Bow Toys - CoComelon - Jun 2025,ACC037,AG009,U08,Closed Lost,276100.0,0,Event,CoComelon,2025-04-06,2025-05-26,True,False,Budget cut,
+OPP0004,Tiny Harbor Toys - Supa Strikas - Oct 2025,ACC055,AG009,U07,Closed Lost,112200.0,0,Event,Supa Strikas,2025-08-09,2025-09-23,True,False,Pricing,
+OPP0005,Clover Parks - Blippi - Dec 2025,ACC012,AG010,U04,Closed Lost,274300.0,0,Outbound,Blippi,2025-11-02,2025-12-11,True,False,Timing / flight moved,
+OPP0006,Paper Moon Getaways - CoComelon - Nov 2025,ACC001,AG004,U08,Closed Won,177400.0,100,Inbound,CoComelon,2025-09-11,2025-11-06,True,True,,IO-2025-0001
+OPP0007,Willowbrook Getaways - Morphle - Oct 2025,ACC016,AG005,U08,Closed Won,89500.0,100,Event,Morphle,2025-09-06,2025-10-18,True,True,,IO-2025-0002
+OPP0008,Sunnyside Play+ - CoComelon - Oct 2025,ACC044,,U08,Closed Lost,283100.0,0,Event,CoComelon,2025-08-06,2025-09-17,True,False,Budget cut,
+OPP0009,Hazelnut Kids Wear - CoComelon - Jul 2026,ACC057,AG007,U01,Closed Lost,79500.0,0,Upsell / renewal,CoComelon,2026-05-18,2026-06-23,True,False,Pricing,
+OPP0010,Willowbrook Getaways - Little Baby Bum - Jul 2025,ACC016,AG005,U08,Closed Won,145300.0,100,Outbound,Little Baby Bum,2025-05-10,2025-07-09,True,True,,IO-2025-0003
+OPP0011,Nimbus Toys - Gecko's Garage - Oct 2026,ACC048,,U07,RFP Received,139000.0,25,Event,Gecko's Garage,2026-09-03,2026-10-09,False,False,,
+OPP0012,Moonpie Littles - CoComelon - May 2025,ACC049,AG005,U01,Closed Won,77400.0,100,Event,CoComelon,2025-04-12,2025-05-18,True,True,,IO-2025-0004
+OPP0013,Bluebell Baby - Oddbods - Jun 2025,ACC028,AG004,U06,Closed Lost,74900.0,0,Upsell / renewal,Oddbods,2025-05-26,2025-06-17,True,False,Pricing,
+OPP0014,Maple & Moss Motors - Gecko's Garage - Jul 2026,ACC020,AG009,U06,Closed Lost,358900.0,0,Agency RFP,Gecko's Garage,2026-03-25,2026-07-13,True,False,Brand safety / kids policy review,
+OPP0015,Paper Moon Getaways - Gecko's Garage - Jul 2026,ACC001,AG004,U08,Closed Lost,216600.0,0,Outbound,Gecko's Garage,2026-04-27,2026-06-26,True,False,Budget cut,
+OPP0016,Moonpie Littles - Blippi - Jun 2026,ACC049,AG005,U01,Closed Lost,44600.0,0,Outbound,Blippi,2026-04-19,2026-05-31,True,False,Budget cut,
+OPP0017,Firefly Foods - Little Angel - Jun 2025,ACC032,AG009,U04,Closed Won,72400.0,100,Outbound,Little Angel,2025-05-05,2025-06-03,True,True,,IO-2025-0005
+OPP0018,Brightbloom Snacks - Blippi - Jan 2026,ACC027,,U03,Closed Lost,169300.0,0,Upsell / renewal,Blippi,2025-11-02,2025-12-19,True,False,Timing / flight moved,
+OPP0019,Willowbrook Getaways - CoComelon - Oct 2026,ACC016,AG005,U08,Proposal Sent,114700.0,40,Agency RFP,CoComelon,2026-08-28,2026-10-07,False,False,,
+OPP0020,Saffron Playthings - Oddbods - Nov 2025,ACC030,AG004,U02,Closed Won,234500.0,100,Inbound,Oddbods,2025-09-24,2025-11-03,True,True,,IO-2025-0006
+OPP0021,Little Oak Toys - Arpo - Oct 2026,ACC051,AG008,U06,Closed Won,172300.0,100,Outbound,Arpo,2026-08-15,2026-09-18,True,True,,IO-2026-0001
+OPP0022,Tumbletown Kitchen - CoComelon - May 2025,ACC058,AG008,U02,Closed Won,149500.0,100,Upsell / renewal,CoComelon,2025-04-10,2025-05-11,True,True,,IO-2025-0007
+OPP0023,Acorn Essentials - Blippi - Jun 2025,ACC056,AG003,U02,Closed Lost,150000.0,0,Upsell / renewal,Blippi,2025-04-03,2025-05-13,True,False,No decision,
+OPP0024,Pip & Pop Games - Morphle - Oct 2026,ACC054,AG001,U08,Closed Lost,205100.0,0,Event,Morphle,2026-08-02,2026-09-16,True,False,Brand safety / kids policy review,
+OPP0025,Bumblebee Toys - Blippi - Oct 2025,ACC024,,U01,Closed Lost,204600.0,0,Agency RFP,Blippi,2025-08-25,2025-09-27,True,False,Went with competitor,
+OPP0026,Moonpie Littles - CoComelon - Feb 2026,ACC049,AG005,U03,Closed Lost,142500.0,0,Agency RFP,CoComelon,2025-11-29,2026-01-31,True,False,Brand safety / kids policy review,
+OPP0027,Firefly Foods - CoComelon - Apr 2026,ACC032,AG009,U05,Closed Lost,268400.0,0,Outbound,CoComelon,2026-03-02,2026-04-20,True,False,Budget cut,
+OPP0028,Tidepool Playthings - Little Angel - Jul 2025,ACC039,,U02,Closed Lost,126600.0,0,Outbound,Little Angel,2025-05-14,2025-06-08,True,False,Brand safety / kids policy review,
+OPP0029,Treetop Pictures - Blippi - Jul 2025,ACC034,AG001,U01,Closed Won,169500.0,100,Upsell / renewal,Blippi,2025-06-08,2025-07-03,True,True,,IO-2025-0008
+OPP0030,Kitefield Snacks - CoComelon - Apr 2026,ACC046,AG010,U06,Closed Won,53400.0,100,Outbound,CoComelon,2026-02-15,2026-03-28,True,True,,IO-2026-0002
+OPP0031,Little Oak Toys - CoComelon - Oct 2026,ACC051,AG008,U07,Proposal Sent,285400.0,40,Event,CoComelon,2026-08-25,2026-10-07,False,False,,
+OPP0032,Quill Labs - CoComelon - Jul 2026,ACC014,AG006,U07,Closed Won,18600.0,100,Agency RFP,CoComelon,2026-05-28,2026-07-05,True,True,,IO-2026-0003
+OPP0033,Zippy Learning - Blippi - Oct 2026,ACC006,,U02,Closed Lost,65400.0,0,Inbound,Blippi,2026-06-28,2026-09-08,True,False,Went with competitor,
+OPP0034,Driftwood Care - Little Angel - Sep 2025,ACC008,AG003,U08,Closed Lost,50900.0,0,Event,Little Angel,2025-07-01,2025-08-12,True,False,Timing / flight moved,
+OPP0035,Zippy Learning - CoComelon - Jun 2026,ACC006,,U01,Closed Won,158700.0,100,Agency RFP,CoComelon,2026-04-06,2026-06-04,True,True,,IO-2026-0004
+OPP0036,Driftwood Care - CoComelon - Jan 2026,ACC008,AG003,U08,Closed Lost,52900.0,0,Event,CoComelon,2025-12-04,2026-01-02,True,False,Went with competitor,
+OPP0037,Nimbus Toys - CoComelon - Oct 2026,ACC048,,U07,Negotiation,109500.0,70,Inbound,CoComelon,2026-08-09,2026-09-28,False,False,,
+OPP0038,Cobblestone Market - Blippi - Nov 2025,ACC050,AG005,U01,Closed Lost,104600.0,0,Outbound,Blippi,2025-09-01,2025-10-20,True,False,Went with competitor,
+OPP0039,Northwind Pictures - CoComelon - Apr 2026,ACC003,AG006,U07,Closed Lost,245700.0,0,Agency RFP,CoComelon,2026-03-01,2026-04-03,True,False,Timing / flight moved,
+OPP0040,Fernwood Playthings - Little Baby Bum - Jul 2026,ACC033,AG004,U07,Closed Won,203100.0,100,Inbound,Little Baby Bum,2026-04-29,2026-06-23,True,True,,IO-2026-0005
+OPP0041,Quill Labs - Supa Strikas - Jun 2025,ACC014,AG006,U06,Closed Lost,30600.0,0,Event,Supa Strikas,2025-03-29,2025-05-26,True,False,No decision,
+OPP0042,Bluebell Baby - Blippi - Oct 2025,ACC028,AG004,U06,Closed Lost,223100.0,0,Event,Blippi,2025-09-17,2025-10-13,True,False,Brand safety / kids policy review,
+OPP0043,Tumbletown Kitchen - Blippi - Feb 2026,ACC058,AG008,U02,Closed Won,73400.0,100,Outbound,Blippi,2025-12-06,2026-02-07,True,True,,IO-2026-0006
+OPP0044,Tumbletown Kitchen - Little Angel - Aug 2025,ACC058,AG008,U03,Closed Won,171000.0,100,Inbound,Little Angel,2025-06-13,2025-07-29,True,True,,IO-2025-0009
+OPP0045,Bluebell Baby - Gecko's Garage - Jan 2026,ACC028,AG004,U07,Closed Lost,91500.0,0,Inbound,Gecko's Garage,2025-12-22,2026-01-18,True,False,Timing / flight moved,
+OPP0046,Meadowlark Foods - Blippi - Mar 2026,ACC015,AG005,U05,Closed Won,100200.0,100,Agency RFP,Blippi,2026-01-05,2026-02-12,True,True,,IO-2026-0007
+OPP0047,Seashell Labs - Oddbods - Aug 2025,ACC052,,U03,Closed Lost,33000.0,0,Event,Oddbods,2025-06-07,2025-08-03,True,False,Budget cut,
+OPP0048,Moonpie Littles - Little Baby Bum - Apr 2026,ACC049,AG005,U03,Closed Won,102000.0,100,Inbound,Little Baby Bum,2026-03-03,2026-04-18,True,True,,IO-2026-0008
+OPP0049,Larkspur Play+ - CoComelon - Jun 2025,ACC043,AG002,U06,Closed Won,179300.0,100,Inbound,CoComelon,2025-05-14,2025-06-09,True,True,,IO-2025-0010
+OPP0050,Firefly Foods - Go Buster - Mar 2025,ACC032,AG009,U05,Closed Won,232900.0,100,Agency RFP,Go Buster,2025-01-24,2025-03-14,True,True,,IO-2025-0011
+OPP0051,Pepperpot Pictures - Oddbods - Apr 2025,ACC035,AG008,U02,Closed Lost,192000.0,0,Event,Oddbods,2025-03-17,2025-03-29,True,False,Budget cut,
+OPP0052,Harborview Learning - Blippi - Jul 2025,ACC038,AG009,U03,Closed Won,44800.0,100,Upsell / renewal,Blippi,2025-05-28,2025-07-04,True,True,,IO-2025-0012
+OPP0053,Tinkertown Learning - Blippi - Oct 2026,ACC040,AG010,U04,Negotiation,22800.0,70,Outbound,Blippi,2026-07-31,2026-09-22,False,False,,
+OPP0054,Bluebell Baby - Little Baby Bum - Jul 2026,ACC028,AG004,U07,Closed Lost,232900.0,0,Upsell / renewal,Little Baby Bum,2026-05-11,2026-06-29,True,False,Timing / flight moved,
+OPP0055,Pepperpot Pictures - Little Baby Bum - Nov 2025,ACC035,AG008,U03,Closed Lost,183500.0,0,Upsell / renewal,Little Baby Bum,2025-10-22,2025-11-15,True,False,Went with competitor,
+OPP0056,Pebblestone Baby - Little Angel - Mar 2025,ACC017,,U02,Closed Lost,42300.0,0,Inbound,Little Angel,2025-01-06,2025-02-18,True,False,Timing / flight moved,
+OPP0057,Hopscotch Toys - CoComelon - Oct 2026,ACC026,,U06,Closed Lost,218400.0,0,Outbound,CoComelon,2026-08-05,2026-09-15,True,False,No decision,
+OPP0058,Fernwood Playthings - Blippi - Oct 2026,ACC033,AG004,U06,Negotiation,170600.0,70,Upsell / renewal,Blippi,2026-08-15,2026-09-27,False,False,,
+OPP0059,Zippy Learning - Gecko's Garage - Sep 2025,ACC006,,U01,Closed Won,115500.0,100,Inbound,Gecko's Garage,2025-07-30,2025-09-04,True,True,,IO-2025-0013
+OPP0060,Cloudberry Baby - Blippi - Apr 2026,ACC041,AG010,U05,Closed Lost,115600.0,0,Event,Blippi,2026-01-19,2026-03-17,True,False,Went with competitor,
+OPP0061,Riverstone Stores - Little Baby Bum - Nov 2026,ACC042,AG004,U02,Prospecting,173400.0,10,Agency RFP,Little Baby Bum,2026-09-10,2026-10-27,False,False,,
+OPP0062,Wonderwell Games - Oddbods - Oct 2026,ACC004,AG002,U06,Negotiation,153300.0,70,Inbound,Oddbods,2026-08-13,2026-09-22,False,False,,
+OPP0063,Clover Parks - Blippi - May 2026,ACC012,AG010,U04,Closed Won,114100.0,100,Agency RFP,Blippi,2026-03-03,2026-04-26,True,True,,IO-2026-0009
+OPP0064,Hazelnut Kids Wear - Little Baby Bum - Nov 2025,ACC057,AG007,U01,Closed Lost,58400.0,0,Upsell / renewal,Little Baby Bum,2025-09-06,2025-11-01,True,False,Timing / flight moved,
+OPP0065,Tumbletown Kitchen - Oddbods - Jul 2026,ACC058,AG008,U03,Closed Lost,311100.0,0,Outbound,Oddbods,2026-05-18,2026-07-09,True,False,Went with competitor,
+OPP0066,Firefly Foods - CoComelon - Aug 2025,ACC032,AG009,U04,Closed Won,152800.0,100,Event,CoComelon,2025-05-21,2025-07-20,True,True,,IO-2025-0014
+OPP0067,Meadowlark Foods - Blippi - Apr 2025,ACC015,AG005,U05,Closed Lost,62800.0,0,Inbound,Blippi,2025-02-02,2025-04-01,True,False,Budget cut,
+OPP0068,Zippy Learning - Little Baby Bum - Sep 2025,ACC006,,U01,Closed Lost,114300.0,0,Outbound,Little Baby Bum,2025-07-03,2025-08-28,True,False,Budget cut,
+OPP0069,Bumblebee Toys - CoComelon - Apr 2026,ACC024,,U02,Closed Won,255600.0,100,Upsell / renewal,CoComelon,2026-01-25,2026-03-24,True,True,,IO-2026-0010
+OPP0070,Pebblestone Baby - Blippi - Jul 2025,ACC017,,U02,Closed Won,106800.0,100,Outbound,Blippi,2025-05-23,2025-06-27,True,True,,IO-2025-0015
+OPP0071,Willowbrook Getaways - Morphle - May 2026,ACC016,AG005,U08,Closed Lost,101100.0,0,Outbound,Morphle,2026-04-18,2026-05-07,True,False,Brand safety / kids policy review,
+OPP0072,Acorn Essentials - CoComelon - May 2026,ACC056,AG003,U01,Closed Lost,156500.0,0,Event,CoComelon,2026-03-17,2026-04-23,True,False,Brand safety / kids policy review,
+OPP0073,Pebblestone Baby - CoComelon - Feb 2026,ACC017,,U01,Closed Won,102300.0,100,Inbound,CoComelon,2025-12-20,2026-02-17,True,True,,IO-2026-0011
+OPP0074,Merrymint Market - Oddbods - Oct 2026,ACC005,AG009,U02,Proposal Sent,260000.0,40,Agency RFP,Oddbods,2026-08-19,2026-10-13,False,False,,
+OPP0075,Kitefield Snacks - CoComelon - Oct 2026,ACC046,AG010,U06,Proposal Sent,76300.0,40,Agency RFP,CoComelon,2026-08-28,2026-10-01,False,False,,
+OPP0076,Riverstone Stores - CoComelon - Oct 2026,ACC042,AG004,U02,RFP Received,203400.0,25,Upsell / renewal,CoComelon,2026-08-11,2026-10-12,False,False,,
+OPP0077,Hazelnut Kids Wear - CoComelon - Oct 2026,ACC057,AG007,U03,Negotiation,62500.0,70,Upsell / renewal,CoComelon,2026-07-17,2026-10-01,False,False,,
+OPP0078,Sprout Toys - CoComelon - Nov 2025,ACC060,AG002,U01,Closed Won,116300.0,100,Agency RFP,CoComelon,2025-10-01,2025-10-21,True,True,,IO-2025-0016
+OPP0079,Bluebell Baby - Gecko's Garage - May 2026,ACC028,AG004,U06,Closed Won,25300.0,100,Outbound,Gecko's Garage,2026-04-11,2026-05-06,True,True,,IO-2026-0012
+OPP0080,Paper Moon Getaways - CoComelon - Jun 2026,ACC001,AG004,U08,Closed Won,151100.0,100,Upsell / renewal,CoComelon,2026-03-28,2026-05-27,True,True,,IO-2026-0013
+OPP0081,Cloudberry Baby - Oddbods - May 2025,ACC041,AG010,U04,Closed Won,141300.0,100,Upsell / renewal,Oddbods,2025-03-14,2025-04-30,True,True,,IO-2025-0017
+OPP0082,Hazelnut Kids Wear - CoComelon - Feb 2026,ACC057,AG007,U01,Closed Lost,110500.0,0,Event,CoComelon,2025-12-26,2026-02-07,True,False,Timing / flight moved,
+OPP0083,Seashell Labs - CoComelon - Aug 2025,ACC052,,U03,Closed Lost,29400.0,0,Outbound,CoComelon,2025-07-13,2025-08-04,True,False,Pricing,
+OPP0084,Zippy Learning - Gecko's Garage - Feb 2026,ACC006,,U02,Closed Lost,16600.0,0,Inbound,Gecko's Garage,2026-01-05,2026-02-04,True,False,Pricing,
+OPP0085,Wonderwell Games - CoComelon - Nov 2025,ACC004,AG002,U07,Closed Lost,271800.0,0,Upsell / renewal,CoComelon,2025-09-27,2025-10-28,True,False,Budget cut,
+OPP0086,Otter & Oak Outlet - Morphle - Oct 2026,ACC013,,U07,Proposal Sent,315800.0,40,Agency RFP,Morphle,2026-08-12,2026-09-29,False,False,,
+OPP0087,Paper Moon Getaways - CoComelon - Jun 2026,ACC001,AG004,U08,Closed Won,85900.0,100,Outbound,CoComelon,2026-04-29,2026-05-26,True,True,,IO-2026-0014
+OPP0088,Zippy Learning - Morphle - Feb 2026,ACC006,,U02,Closed Won,21900.0,100,Event,Morphle,2025-12-10,2026-01-31,True,True,,IO-2026-0015
+OPP0089,Acorn Essentials - Little Angel - Oct 2026,ACC056,AG003,U01,Negotiation,74600.0,70,Event,Little Angel,2026-08-18,2026-09-23,False,False,,
+OPP0090,Riverstone Stores - CoComelon - Nov 2026,ACC042,AG004,U02,Prospecting,183000.0,10,Upsell / renewal,CoComelon,2026-09-09,2026-11-02,False,False,,
+OPP0091,Bluebell Baby - Little Baby Bum - Sep 2025,ACC028,AG004,U07,Closed Won,74500.0,100,Agency RFP,Little Baby Bum,2025-06-28,2025-08-29,True,True,,IO-2025-0018
+OPP0092,Paper Moon Getaways - Gecko's Garage - Sep 2025,ACC001,AG004,U08,Closed Won,258400.0,100,Agency RFP,Gecko's Garage,2025-07-22,2025-09-05,True,True,,IO-2025-0019
+OPP0093,Seashell Labs - Blippi - May 2025,ACC052,,U02,Closed Won,62300.0,100,Event,Blippi,2025-01-20,2025-04-19,True,True,,IO-2025-0020
+OPP0094,Merrymint Market - Little Angel - Oct 2025,ACC005,AG009,U02,Closed Lost,48000.0,0,Upsell / renewal,Little Angel,2025-09-11,2025-10-07,True,False,Budget cut,
+OPP0095,Brightbloom Snacks - Blippi - May 2025,ACC027,,U03,Closed Won,93200.0,100,Inbound,Blippi,2025-03-16,2025-04-14,True,True,,IO-2025-0021
+OPP0096,Bluebell Baby - CoComelon - May 2026,ACC028,AG004,U06,Closed Won,99700.0,100,Agency RFP,CoComelon,2026-04-03,2026-05-14,True,True,,IO-2026-0016
+OPP0097,Paper Moon Getaways - Little Baby Bum - Mar 2026,ACC001,AG004,U08,Closed Won,140500.0,100,Event,Little Baby Bum,2026-01-20,2026-02-21,True,True,,IO-2026-0017
+OPP0098,Paper Moon Getaways - CoComelon - Jan 2026,ACC001,AG004,U08,Closed Won,192700.0,100,Agency RFP,CoComelon,2025-10-29,2025-12-19,True,True,,IO-2025-0022
+OPP0099,Larkspur Play+ - Morphle - Oct 2026,ACC043,AG002,U06,Proposal Sent,131500.0,40,Outbound,Morphle,2026-08-27,2026-10-05,False,False,,
+OPP0100,Moonpie Littles - CoComelon - Nov 2025,ACC049,AG005,U01,Closed Lost,115500.0,0,Upsell / renewal,CoComelon,2025-09-22,2025-11-02,True,False,No decision,
+OPP0101,Brightbloom Snacks - Blippi - Apr 2026,ACC027,,U03,Closed Won,99800.0,100,Upsell / renewal,Blippi,2026-02-25,2026-03-17,True,True,,IO-2026-0018
+OPP0102,Brightbloom Snacks - CoComelon - Dec 2025,ACC027,,U03,Closed Lost,80800.0,0,Outbound,CoComelon,2025-10-03,2025-11-29,True,False,Brand safety / kids policy review,
+OPP0103,Sunnyside Play+ - Blippi - Aug 2025,ACC044,,U08,Closed Won,89000.0,100,Agency RFP,Blippi,2025-07-01,2025-08-09,True,True,,IO-2025-0023
+OPP0104,Crayonbox Toys - CoComelon - Oct 2026,ACC002,AG004,U07,Closed Lost,278100.0,0,Event,CoComelon,2026-08-05,2026-09-12,True,False,Pricing,
+OPP0105,Moonpie Littles - Blippi - Dec 2025,ACC049,AG005,U01,Closed Won,130000.0,100,Upsell / renewal,Blippi,2025-10-17,2025-12-05,True,True,,IO-2025-0024
+OPP0106,Driftwood Care - Blippi - Aug 2026,ACC008,AG003,U08,Closed Lost,220500.0,0,Event,Blippi,2026-05-25,2026-07-21,True,False,Went with competitor,
+OPP0107,Seashell Labs - CoComelon - Jun 2025,ACC052,,U03,Closed Lost,69200.0,0,Outbound,CoComelon,2025-03-14,2025-05-10,True,False,Budget cut,
+OPP0108,Acorn Essentials - Oddbods - Aug 2025,ACC056,AG003,U01,Closed Lost,82000.0,0,Inbound,Oddbods,2025-05-27,2025-08-01,True,False,Timing / flight moved,
+OPP0109,Lanternfish Foods - CoComelon - Sep 2026,ACC025,AG001,U01,Closed Won,93800.0,100,Outbound,CoComelon,2026-08-14,2026-09-15,True,True,,IO-2026-0019
+OPP0110,Paper Moon Getaways - Blippi - Dec 2025,ACC001,AG004,U08,Closed Won,263200.0,100,Outbound,Blippi,2025-11-02,2025-12-13,True,True,,IO-2025-0025
+OPP0111,Zippy Learning - CoComelon - Jun 2025,ACC006,,U03,Closed Won,68800.0,100,Upsell / renewal,CoComelon,2025-04-21,2025-06-01,True,True,,IO-2025-0026
+OPP0112,Kitefield Snacks - CoComelon - Sep 2025,ACC046,AG010,U07,Closed Lost,68900.0,0,Inbound,CoComelon,2025-07-26,2025-09-11,True,False,Brand safety / kids policy review,
+OPP0113,Juniper Play+ - CoComelon - May 2026,ACC036,AG008,U08,Closed Lost,247200.0,0,Upsell / renewal,CoComelon,2026-03-13,2026-04-22,True,False,Timing / flight moved,
+OPP0114,Wonderwell Games - Blippi - Oct 2026,ACC004,AG002,U06,RFP Received,118900.0,25,Outbound,Blippi,2026-09-07,2026-10-13,False,False,,
+OPP0115,Driftwood Care - Go Buster - Aug 2026,ACC008,AG003,U08,Closed Won,45400.0,100,Event,Go Buster,2026-06-22,2026-07-23,True,True,,IO-2026-0020
+OPP0116,Treetop Pictures - Blippi - May 2025,ACC034,AG001,U03,Closed Lost,344500.0,0,Agency RFP,Blippi,2025-03-22,2025-04-17,True,False,Pricing,
+OPP0117,Zippy Learning - CoComelon - Jun 2025,ACC006,,U03,Closed Lost,55000.0,0,Upsell / renewal,CoComelon,2025-04-04,2025-06-10,True,False,Budget cut,
+OPP0118,Harborview Learning - CoComelon - Jun 2026,ACC038,AG009,U03,Closed Lost,81100.0,0,Upsell / renewal,CoComelon,2026-04-09,2026-05-23,True,False,No decision,
+OPP0119,Moonpie Littles - Oddbods - Jul 2025,ACC049,AG005,U03,Closed Lost,54900.0,0,Event,Oddbods,2025-05-18,2025-07-05,True,False,Pricing,
+OPP0120,Juniper Play+ - CoComelon - Jul 2026,ACC036,AG008,U08,Closed Lost,94300.0,0,Outbound,CoComelon,2026-06-01,2026-07-07,True,False,Went with competitor,
+OPP0121,Tumbletown Kitchen - Little Baby Bum - Oct 2026,ACC058,AG008,U01,Proposal Sent,238400.0,40,Upsell / renewal,Little Baby Bum,2026-07-21,2026-09-22,False,False,,
+OPP0122,Harborview Learning - Oddbods - Jun 2026,ACC038,AG009,U03,Closed Lost,180000.0,0,Event,Oddbods,2026-04-09,2026-06-14,True,False,Pricing,
+OPP0123,Juniper Play+ - CoComelon - Aug 2026,ACC036,AG008,U08,Closed Lost,132500.0,0,Outbound,CoComelon,2026-07-20,2026-08-11,True,False,Went with competitor,
+OPP0124,Kitefield Snacks - Blippi - Feb 2026,ACC046,AG010,U07,Closed Lost,59300.0,0,Event,Blippi,2026-01-02,2026-01-24,True,False,Went with competitor,
+OPP0125,Kitefield Snacks - CoComelon - Aug 2026,ACC046,AG010,U06,Closed Won,241900.0,100,Agency RFP,CoComelon,2026-06-05,2026-07-12,True,True,,IO-2026-0021
+OPP0126,Paper Moon Getaways - Gecko's Garage - Dec 2025,ACC001,AG004,U08,Closed Lost,55400.0,0,Outbound,Gecko's Garage,2025-09-15,2025-11-10,True,False,Pricing,
+OPP0127,Quill Labs - CoComelon - May 2026,ACC014,AG006,U06,Closed Lost,38500.0,0,Upsell / renewal,CoComelon,2026-02-05,2026-04-08,True,False,Budget cut,
+OPP0128,Copperkettle Studios - Gecko's Garage - Dec 2025,ACC007,AG006,U03,Closed Lost,311000.0,0,Event,Gecko's Garage,2025-11-09,2025-11-30,True,False,Went with competitor,
+OPP0129,Sprout Toys - CoComelon - Nov 2025,ACC060,AG002,U01,Closed Lost,128400.0,0,Upsell / renewal,CoComelon,2025-09-06,2025-10-18,True,False,Timing / flight moved,
+OPP0130,Pebblestone Baby - Little Baby Bum - Feb 2026,ACC017,,U02,Closed Lost,70600.0,0,Event,Little Baby Bum,2025-11-22,2026-01-25,True,False,No decision,
+OPP0131,Riverstone Stores - Gecko's Garage - Oct 2026,ACC042,AG004,U01,RFP Received,194400.0,25,Agency RFP,Gecko's Garage,2026-09-01,2026-10-11,False,False,,
+OPP0132,Moonpie Littles - Gecko's Garage - Oct 2026,ACC049,AG005,U01,Negotiation,71800.0,70,Event,Gecko's Garage,2026-08-16,2026-09-22,False,False,,
+OPP0133,Pip & Pop Games - Blippi - Oct 2026,ACC054,AG001,U08,Closed Lost,62000.0,0,Agency RFP,Blippi,2026-08-15,2026-09-19,True,False,Brand safety / kids policy review,
+OPP0134,Pip & Pop Games - CoComelon - Oct 2025,ACC054,AG001,U08,Closed Lost,264400.0,0,Inbound,CoComelon,2025-08-19,2025-09-10,True,False,Budget cut,
+OPP0135,Seashell Labs - Blippi - May 2025,ACC052,,U01,Closed Lost,66000.0,0,Inbound,Blippi,2025-01-20,2025-04-18,True,False,Went with competitor,
+OPP0136,Marigold Mobility - Blippi - Nov 2026,ACC018,,U01,Proposal Sent,209800.0,40,Event,Blippi,2026-06-29,2026-10-17,False,False,,
+OPP0137,Pinwheel Playthings - Blippi - Oct 2026,ACC009,AG010,U04,Negotiation,214600.0,70,Inbound,Blippi,2026-08-08,2026-09-24,False,False,,
+OPP0138,Otter & Oak Outlet - Oddbods - Sep 2026,ACC013,,U07,Closed Won,59100.0,100,Agency RFP,Oddbods,2026-07-27,2026-09-10,True,True,,IO-2026-0022
+OPP0139,Acorn Essentials - Blippi - Oct 2026,ACC056,AG003,U03,RFP Received,41100.0,25,Event,Blippi,2026-09-04,2026-09-25,False,False,,
+OPP0140,Quill Labs - Little Angel - Sep 2025,ACC014,AG006,U06,Closed Won,45000.0,100,Upsell / renewal,Little Angel,2025-06-23,2025-08-24,True,True,,IO-2025-0027
+OPP0141,Hazelnut Kids Wear - Supa Strikas - Jun 2026,ACC057,AG007,U02,Closed Lost,259500.0,0,Inbound,Supa Strikas,2026-04-17,2026-06-05,True,False,Timing / flight moved,
+OPP0142,Pinwheel Playthings - Little Baby Bum - Jul 2026,ACC009,AG010,U05,Closed Lost,141700.0,0,Event,Little Baby Bum,2026-05-20,2026-06-22,True,False,Timing / flight moved,
+OPP0143,Clover Parks - Little Angel - Apr 2026,ACC012,AG010,U04,Closed Lost,319200.0,0,Agency RFP,Little Angel,2026-02-08,2026-04-10,True,False,Brand safety / kids policy review,
+OPP0144,Bluebell Baby - CoComelon - Sep 2025,ACC028,AG004,U06,Closed Won,71200.0,100,Inbound,CoComelon,2025-07-11,2025-08-18,True,True,,IO-2025-0028
+OPP0145,Tumbletown Kitchen - Oddbods - Aug 2026,ACC058,AG008,U02,Closed Lost,33500.0,0,Event,Oddbods,2026-06-14,2026-07-18,True,False,Budget cut,
+OPP0146,Moonpie Littles - Blippi - Nov 2026,ACC049,AG005,U02,Proposal Sent,78700.0,40,Outbound,Blippi,2026-08-13,2026-10-12,False,False,,
+OPP0147,Gumdrop Games - Little Baby Bum - Oct 2026,ACC021,,U08,RFP Received,257000.0,25,Outbound,Little Baby Bum,2026-09-01,2026-10-08,False,False,,
+OPP0148,Honeycomb Market - Go Buster - Nov 2025,ACC011,,U07,Closed Won,220600.0,100,Outbound,Go Buster,2025-09-07,2025-10-26,True,True,,IO-2025-0029
+OPP0149,Hazelnut Kids Wear - Supa Strikas - Mar 2026,ACC057,AG007,U01,Closed Lost,66400.0,0,Upsell / renewal,Supa Strikas,2026-01-23,2026-02-23,True,False,Timing / flight moved,
+OPP0150,Merrymint Market - Oddbods - Oct 2025,ACC005,AG009,U03,Closed Lost,335100.0,0,Inbound,Oddbods,2025-08-23,2025-09-28,True,False,Budget cut,
+OPP0151,Rocket Pup Outfitters - Blippi - Sep 2025,ACC010,AG003,U01,Closed Lost,37800.0,0,Upsell / renewal,Blippi,2025-07-23,2025-08-21,True,False,Timing / flight moved,
+OPP0152,Pip & Pop Games - CoComelon - Nov 2025,ACC054,AG001,U08,Closed Won,185900.0,100,Agency RFP,CoComelon,2025-09-24,2025-11-08,True,True,,IO-2025-0030
+OPP0153,Snugglebug Market - CoComelon - Aug 2025,ACC045,AG004,U08,Closed Won,260200.0,100,Upsell / renewal,CoComelon,2025-07-11,2025-07-27,True,True,,IO-2025-0031
+OPP0154,Bluebell Baby - Blippi - Apr 2026,ACC028,AG004,U06,Closed Lost,150200.0,0,Inbound,Blippi,2026-02-24,2026-04-11,True,False,Went with competitor,
+OPP0155,Sprout Toys - Little Baby Bum - Nov 2026,ACC060,AG002,U01,Prospecting,239100.0,10,Inbound,Little Baby Bum,2026-09-01,2026-11-01,False,False,,
+OPP0156,Cobblestone Market - CoComelon - Oct 2026,ACC050,AG005,U03,RFP Received,91800.0,25,Upsell / renewal,CoComelon,2026-08-17,2026-09-30,False,False,,
+OPP0157,Saffron Playthings - CoComelon - Oct 2025,ACC030,AG004,U03,Closed Won,152700.0,100,Outbound,CoComelon,2025-08-15,2025-09-24,True,True,,IO-2025-0032
+OPP0158,Crayonbox Toys - CoComelon - Aug 2026,ACC002,AG004,U07,Closed Lost,357900.0,0,Upsell / renewal,CoComelon,2026-07-01,2026-08-15,True,False,No decision,
+OPP0159,Tidepool Playthings - Oddbods - Nov 2026,ACC039,,U02,Prospecting,270400.0,10,Event,Oddbods,2026-09-10,2026-10-29,False,False,,
+OPP0160,Harborview Learning - Oddbods - May 2025,ACC038,AG009,U01,Closed Won,72400.0,100,Outbound,Oddbods,2025-02-08,2025-04-14,True,True,,IO-2025-0033
+OPP0161,Cloudberry Baby - CoComelon - Jun 2026,ACC041,AG010,U04,Closed Won,44500.0,100,Inbound,CoComelon,2026-04-02,2026-05-09,True,True,,IO-2026-0023
+OPP0162,Otter & Oak Outlet - Little Baby Bum - Oct 2025,ACC013,,U07,Closed Lost,167700.0,0,Inbound,Little Baby Bum,2025-08-09,2025-09-28,True,False,Went with competitor,
+OPP0163,Willowbrook Getaways - Little Angel - Apr 2025,ACC016,AG005,U08,Closed Lost,228900.0,0,Agency RFP,Little Angel,2025-01-09,2025-03-26,True,False,Budget cut,
+OPP0164,Acorn Essentials - CoComelon - Apr 2025,ACC056,AG003,U02,Closed Won,102500.0,100,Upsell / renewal,CoComelon,2025-02-10,2025-03-30,True,True,,IO-2025-0034
+OPP0165,Pebblestone Baby - Blippi - Apr 2026,ACC017,,U01,Closed Lost,45200.0,0,Outbound,Blippi,2026-03-04,2026-04-07,True,False,No decision,
+OPP0166,Pebblestone Baby - Gecko's Garage - Jul 2025,ACC017,,U03,Closed Lost,111600.0,0,Inbound,Gecko's Garage,2025-05-22,2025-07-12,True,False,Brand safety / kids policy review,
+OPP0167,Bumblebee Toys - Oddbods - Mar 2025,ACC024,,U02,Closed Lost,168300.0,0,Upsell / renewal,Oddbods,2025-01-31,2025-02-18,True,False,Went with competitor,
+OPP0168,Moonpie Littles - CoComelon - Oct 2026,ACC049,AG005,U01,RFP Received,161200.0,25,Agency RFP,CoComelon,2026-08-04,2026-10-01,False,False,,
+OPP0169,Seashell Labs - Blippi - Jul 2026,ACC052,,U02,Closed Won,61300.0,100,Agency RFP,Blippi,2026-04-26,2026-07-06,True,True,,IO-2026-0024
+OPP0170,Cloudberry Baby - Little Baby Bum - Oct 2025,ACC041,AG010,U04,Closed Lost,108800.0,0,Outbound,Little Baby Bum,2025-09-10,2025-10-10,True,False,No decision,
+OPP0171,Meadowlark Foods - Arpo - Nov 2025,ACC015,AG005,U05,Closed Won,243600.0,100,Agency RFP,Arpo,2025-09-09,2025-10-29,True,True,,IO-2025-0035
+OPP0172,Tinkertown Learning - CoComelon - May 2026,ACC040,AG010,U04,Closed Lost,67600.0,0,Inbound,CoComelon,2026-02-28,2026-04-18,True,False,Pricing,
+OPP0173,Little Oak Toys - CoComelon - Oct 2026,ACC051,AG008,U06,Proposal Sent,131000.0,40,Agency RFP,CoComelon,2026-08-14,2026-09-20,False,False,,
+OPP0174,Riverstone Stores - CoComelon - Nov 2026,ACC042,AG004,U02,Prospecting,106200.0,10,Inbound,CoComelon,2026-09-10,2026-10-26,False,False,,
+OPP0175,Moonpie Littles - CoComelon - Sep 2025,ACC049,AG005,U01,Closed Won,72100.0,100,Agency RFP,CoComelon,2025-08-01,2025-09-19,True,True,,IO-2025-0036
+OPP0176,Blue Kite Outfitters - Blippi - Mar 2025,ACC022,AG004,U08,Closed Lost,53700.0,0,Event,Blippi,2025-02-06,2025-03-07,True,False,Budget cut,
+OPP0177,Hazelnut Kids Wear - Little Angel - Jun 2026,ACC057,AG007,U01,Closed Won,71100.0,100,Agency RFP,Little Angel,2026-05-20,2026-06-08,True,True,,IO-2026-0025
+OPP0178,Cobblestone Market - Supa Strikas - Jun 2026,ACC050,AG005,U02,Closed Lost,121700.0,0,Event,Supa Strikas,2026-04-17,2026-05-20,True,False,Brand safety / kids policy review,
+OPP0179,Saffron Playthings - Oddbods - Oct 2026,ACC030,AG004,U01,Negotiation,494500.0,70,Outbound,Oddbods,2026-07-31,2026-09-26,False,False,,
+OPP0180,Little Oak Toys - CoComelon - Sep 2026,ACC051,AG008,U06,Closed Won,193500.0,100,Upsell / renewal,CoComelon,2026-07-03,2026-08-10,True,True,,IO-2026-0026
+OPP0181,Harborview Learning - CoComelon - Sep 2025,ACC038,AG009,U01,Closed Lost,95800.0,0,Event,CoComelon,2025-05-25,2025-09-09,True,False,Pricing,
+OPP0182,Wonderwell Games - Morphle - Nov 2025,ACC004,AG002,U07,Closed Lost,306700.0,0,Event,Morphle,2025-09-27,2025-10-28,True,False,Budget cut,
+OPP0183,Kitefield Snacks - Blippi - Oct 2026,ACC046,AG010,U06,Negotiation,120900.0,70,Agency RFP,Blippi,2026-08-12,2026-09-29,False,False,,
+OPP0184,Tinkertown Learning - CoComelon - Jan 2026,ACC040,AG010,U05,Closed Won,58100.0,100,Agency RFP,CoComelon,2025-11-30,2025-12-31,True,True,,IO-2025-0037
+OPP0185,Sunnyside Play+ - CoComelon - Sep 2025,ACC044,,U08,Closed Lost,100400.0,0,Outbound,CoComelon,2025-07-20,2025-09-01,True,False,Brand safety / kids policy review,
+OPP0186,Juniper Play+ - CoComelon - Apr 2026,ACC036,AG008,U08,Closed Won,217400.0,100,Outbound,CoComelon,2026-03-04,2026-04-15,True,True,,IO-2026-0027
+OPP0187,Moonpie Littles - Gecko's Garage - Oct 2026,ACC049,AG005,U01,Proposal Sent,178500.0,40,Agency RFP,Gecko's Garage,2026-08-17,2026-10-04,False,False,,
+OPP0188,Clover Parks - Morphle - May 2025,ACC012,AG010,U04,Closed Won,103000.0,100,Upsell / renewal,Morphle,2025-03-26,2025-05-02,True,True,,IO-2025-0038
+OPP0189,Riverstone Stores - Little Angel - Oct 2026,ACC042,AG004,U02,Closed Lost,64500.0,0,Agency RFP,Little Angel,2026-07-20,2026-09-15,True,False,Budget cut,
+OPP0190,Paper Moon Getaways - Blippi - Aug 2026,ACC001,AG004,U08,Closed Won,434800.0,100,Agency RFP,Blippi,2026-06-22,2026-08-01,True,True,,IO-2026-0028
+OPP0191,Otter & Oak Outlet - CoComelon - Oct 2026,ACC013,,U07,Proposal Sent,106500.0,40,Upsell / renewal,CoComelon,2026-08-04,2026-10-01,False,False,,
+OPP0192,Meadowlark Foods - Supa Strikas - Aug 2026,ACC015,AG005,U05,Closed Lost,74500.0,0,Event,Supa Strikas,2026-07-08,2026-08-17,True,False,No decision,
+OPP0193,Paper Moon Getaways - CoComelon - Nov 2026,ACC001,AG004,U08,RFP Received,123200.0,25,Upsell / renewal,CoComelon,2026-08-31,2026-10-26,False,False,,
+OPP0194,Paper Moon Getaways - CoComelon - Feb 2026,ACC001,AG004,U08,Closed Lost,140500.0,0,Event,CoComelon,2025-12-12,2026-02-01,True,False,Went with competitor,
+OPP0195,Cloudberry Baby - CoComelon - Apr 2025,ACC041,AG010,U04,Closed Lost,170800.0,0,Agency RFP,CoComelon,2025-02-16,2025-04-08,True,False,Pricing,
+OPP0196,Puddlejump Stores - CoComelon - Nov 2025,ACC053,,U05,Closed Lost,177800.0,0,Inbound,CoComelon,2025-08-24,2025-11-06,True,False,Timing / flight moved,
+OPP0197,Clover Parks - Little Baby Bum - Aug 2025,ACC012,AG010,U05,Closed Lost,74300.0,0,Agency RFP,Little Baby Bum,2025-05-25,2025-07-22,True,False,Went with competitor,
+OPP0198,Meadowlark Foods - CoComelon - Jul 2026,ACC015,AG005,U04,Closed Lost,201300.0,0,Upsell / renewal,CoComelon,2026-05-14,2026-06-26,True,False,Pricing,
+OPP0199,Acorn Essentials - CoComelon - Jul 2026,ACC056,AG003,U01,Closed Lost,117300.0,0,Outbound,CoComelon,2026-04-21,2026-06-21,True,False,Pricing,
+OPP0200,Nimbus Toys - CoComelon - Aug 2026,ACC048,,U06,Proposal Sent,216500.0,40,Inbound,CoComelon,2026-07-06,2026-08-10,False,False,,
+OPP0201,Wildflower Play+ - Go Buster - Jun 2026,ACC023,AG009,U07,Closed Won,110800.0,100,Event,Go Buster,2026-04-14,2026-05-24,True,True,,IO-2026-0029
+OPP0202,Acorn Essentials - Blippi - Nov 2026,ACC056,AG003,U01,Proposal Sent,76600.0,40,Inbound,Blippi,2026-08-15,2026-10-17,False,False,,
+OPP0203,Zippy Learning - CoComelon - Apr 2026,ACC006,,U02,Closed Won,56500.0,100,Outbound,CoComelon,2026-02-21,2026-03-31,True,True,,IO-2026-0030
+OPP0204,Lullaby Lane Games - Gecko's Garage - Sep 2026,ACC031,,U03,Closed Won,183500.0,100,Upsell / renewal,Gecko's Garage,2026-07-10,2026-08-30,True,True,,IO-2026-0031
+OPP0205,Copperkettle Studios - Oddbods - Jul 2026,ACC007,AG006,U01,Closed Won,294800.0,100,Upsell / renewal,Oddbods,2026-05-05,2026-06-11,True,True,,IO-2026-0032
+OPP0206,Pinwheel Playthings - Go Buster - Oct 2025,ACC009,AG010,U05,Closed Won,229800.0,100,Upsell / renewal,Go Buster,2025-09-18,2025-10-10,True,True,,IO-2025-0039
+OPP0207,Firefly Foods - Gecko's Garage - Jun 2026,ACC032,AG009,U04,Closed Lost,179800.0,0,Inbound,Gecko's Garage,2026-04-14,2026-06-01,True,False,Pricing,
+OPP0208,Bluebell Baby - Blippi - Jul 2025,ACC028,AG004,U06,Closed Won,69000.0,100,Outbound,Blippi,2025-06-01,2025-07-11,True,True,,IO-2025-0040
+OPP0209,Cloudberry Baby - Blippi - Aug 2025,ACC041,AG010,U05,Closed Won,87100.0,100,Outbound,Blippi,2025-06-01,2025-07-27,True,True,,IO-2025-0041
+OPP0210,Zippy Learning - Little Baby Bum - Jan 2026,ACC006,,U02,Closed Won,90900.0,100,Agency RFP,Little Baby Bum,2025-11-06,2025-12-24,True,True,,IO-2025-0042
+OPP0211,Pip & Pop Games - Blippi - Oct 2025,ACC054,AG001,U08,Closed Won,72400.0,100,Upsell / renewal,Blippi,2025-08-18,2025-09-20,True,True,,IO-2025-0043
+OPP0212,Pepperpot Pictures - Little Baby Bum - Nov 2025,ACC035,AG008,U03,Closed Won,216100.0,100,Event,Little Baby Bum,2025-10-05,2025-10-29,True,True,,IO-2025-0044
+OPP0213,Rocket Pup Outfitters - Morphle - May 2026,ACC010,AG003,U01,Closed Won,84400.0,100,Upsell / renewal,Morphle,2026-03-04,2026-04-26,True,True,,IO-2026-0033
+OPP0214,Honeycomb Market - CoComelon - Sep 2025,ACC011,,U06,Closed Won,122800.0,100,Agency RFP,CoComelon,2025-08-30,2025-09-17,True,True,,IO-2025-0045
+OPP0215,Harborview Learning - CoComelon - Aug 2025,ACC038,AG009,U03,Closed Won,59800.0,100,Event,CoComelon,2025-06-14,2025-08-08,True,True,,IO-2025-0046
+OPP0216,Bluebell Baby - CoComelon - Jun 2026,ACC028,AG004,U07,Closed Won,66200.0,100,Agency RFP,CoComelon,2026-03-31,2026-05-28,True,True,,IO-2026-0034
+OPP0217,Acorn Essentials - Morphle - Oct 2025,ACC056,AG003,U01,Closed Won,146800.0,100,Event,Morphle,2025-07-25,2025-09-21,True,True,,IO-2025-0047
+OPP0218,Button & Bow Toys - CoComelon - Sep 2025,ACC037,AG009,U08,Closed Lost,242600.0,0,Event,CoComelon,2025-07-10,2025-08-12,True,False,Timing / flight moved,
+OPP0219,Meadowlark Foods - Blippi - Mar 2026,ACC015,AG005,U05,Closed Won,152600.0,100,Upsell / renewal,Blippi,2026-01-28,2026-03-01,True,True,,IO-2026-0035
+OPP0220,Pepperpot Pictures - CoComelon - Feb 2026,ACC035,AG008,U03,Closed Won,98500.0,100,Event,CoComelon,2025-11-25,2026-01-24,True,True,,IO-2026-0036
+OPP0221,Merrymint Market - CoComelon - Oct 2026,ACC005,AG009,U02,Closed Won,137800.0,100,Event,CoComelon,2026-07-22,2026-09-16,True,True,,IO-2026-0037
+OPP0222,Tumbletown Kitchen - Little Angel - Jan 2026,ACC058,AG008,U02,Closed Won,66500.0,100,Upsell / renewal,Little Angel,2025-11-06,2025-12-20,True,True,,IO-2025-0048
+OPP0223,Rocket Pup Outfitters - Supa Strikas - Aug 2026,ACC010,AG003,U02,Closed Won,62800.0,100,Outbound,Supa Strikas,2026-06-19,2026-08-01,True,True,,IO-2026-0038
+OPP0224,Sunnyside Play+ - CoComelon - Sep 2026,ACC044,,U08,Closed Won,127100.0,100,Upsell / renewal,CoComelon,2026-07-28,2026-08-15,True,True,,IO-2026-0039
+OPP0225,Figtree Outfitters - Supa Strikas - Nov 2025,ACC019,,U03,Closed Lost,50700.0,0,Event,Supa Strikas,2025-08-30,2025-11-20,True,False,Timing / flight moved,
+OPP0226,Firefly Foods - CoComelon - Mar 2025,ACC032,AG009,U05,Closed Won,103100.0,100,Inbound,CoComelon,2025-01-09,2025-03-03,True,True,,IO-2025-0049
+OPP0227,Bluebell Baby - CoComelon - Oct 2026,ACC028,AG004,U06,Negotiation,153700.0,70,Inbound,CoComelon,2026-08-13,2026-10-03,False,False,,
+OPP0228,Larkspur Play+ - Supa Strikas - Oct 2026,ACC043,AG002,U06,Closed Lost,291800.0,0,Agency RFP,Supa Strikas,2026-08-08,2026-09-18,True,False,Pricing,
+OPP0229,Moonpie Littles - CoComelon - Nov 2025,ACC049,AG005,U02,Closed Won,49200.0,100,Event,CoComelon,2025-09-24,2025-11-15,True,True,,IO-2025-0050
+OPP0230,Wiggleworth Games - Blippi - Aug 2025,ACC029,AG001,U03,Closed Lost,368700.0,0,Outbound,Blippi,2025-07-04,2025-08-03,True,False,Budget cut,
+OPP0231,Cloudberry Baby - Little Baby Bum - May 2026,ACC041,AG010,U04,Closed Lost,204000.0,0,Outbound,Little Baby Bum,2026-03-10,2026-05-05,True,False,Timing / flight moved,
+OPP0232,Larkspur Play+ - Little Baby Bum - Feb 2026,ACC043,AG002,U06,Closed Lost,111400.0,0,Upsell / renewal,Little Baby Bum,2026-01-15,2026-02-16,True,False,Pricing,
+OPP0233,Button & Bow Toys - Supa Strikas - Apr 2025,ACC037,AG009,U08,Closed Lost,190400.0,0,Event,Supa Strikas,2025-02-15,2025-03-24,True,False,Timing / flight moved,
+OPP0234,Marigold Mobility - CoComelon - Sep 2026,ACC018,,U01,Closed Won,235000.0,100,Upsell / renewal,CoComelon,2026-05-26,2026-08-31,True,True,,IO-2026-0040
+OPP0235,Saffron Playthings - Oddbods - Sep 2025,ACC030,AG004,U03,Closed Won,155800.0,100,Outbound,Oddbods,2025-07-21,2025-08-19,True,True,,IO-2025-0051
+OPP0236,Honeycomb Market - CoComelon - Nov 2025,ACC011,,U07,Closed Won,155200.0,100,Inbound,CoComelon,2025-08-10,2025-10-18,True,True,,IO-2025-0052
+OPP0237,Puddlejump Stores - CoComelon - Nov 2025,ACC053,,U04,Closed Won,111300.0,100,Outbound,CoComelon,2025-10-11,2025-10-30,True,True,,IO-2025-0053
+OPP0238,Riverstone Stores - Blippi - Aug 2026,ACC042,AG004,U02,Closed Lost,159400.0,0,Outbound,Blippi,2026-05-23,2026-07-22,True,False,Went with competitor,
+OPP0239,Copperkettle Studios - Blippi - Nov 2025,ACC007,AG006,U01,Closed Won,472100.0,100,Outbound,Blippi,2025-10-02,2025-11-06,True,True,,IO-2025-0054
+OPP0240,Hazelnut Kids Wear - CoComelon - Feb 2026,ACC057,AG007,U03,Closed Lost,57300.0,0,Inbound,CoComelon,2026-01-04,2026-02-01,True,False,Went with competitor,
+OPP0241,Treetop Pictures - Gecko's Garage - Sep 2026,ACC034,AG001,U02,Closed Won,91700.0,100,Event,Gecko's Garage,2026-07-25,2026-08-26,True,True,,IO-2026-0041
+OPP0242,Meadowlark Foods - Little Angel - Sep 2026,ACC015,AG005,U04,Closed Won,463600.0,100,Outbound,Little Angel,2026-07-25,2026-08-27,True,True,,IO-2026-0042
+OPP0243,Honeycomb Market - Supa Strikas - Jul 2025,ACC011,,U07,Closed Lost,98600.0,0,Event,Supa Strikas,2025-05-22,2025-06-16,True,False,Budget cut,
+OPP0244,Riverstone Stores - Arpo - Apr 2025,ACC042,AG004,U03,Closed Lost,183500.0,0,Upsell / renewal,Arpo,2025-02-07,2025-03-31,True,False,Pricing,
+OPP0245,Tiny Harbor Toys - Oddbods - Nov 2026,ACC055,AG009,U07,Prospecting,84400.0,10,Agency RFP,Oddbods,2026-09-10,2026-11-04,False,False,,
+OPP0246,Tiny Harbor Toys - Blippi - Oct 2025,ACC055,AG009,U06,Closed Lost,220100.0,0,Event,Blippi,2025-08-23,2025-09-28,True,False,Brand safety / kids policy review,
+OPP0247,Treetop Pictures - Little Angel - Mar 2026,ACC034,AG001,U01,Closed Won,194300.0,100,Agency RFP,Little Angel,2026-01-05,2026-02-15,True,True,,IO-2026-0043
+OPP0248,Cloudberry Baby - Supa Strikas - Jul 2026,ACC041,AG010,U04,Closed Lost,45800.0,0,Event,Supa Strikas,2026-04-30,2026-07-10,True,False,Pricing,
+OPP0249,Paper Moon Getaways - CoComelon - Jun 2025,ACC001,AG004,U08,Closed Lost,316800.0,0,Inbound,CoComelon,2025-05-01,2025-06-06,True,False,No decision,
+OPP0250,Otter & Oak Outlet - Oddbods - Sep 2026,ACC013,,U06,Closed Lost,114800.0,0,Outbound,Oddbods,2026-08-03,2026-09-02,True,False,Brand safety / kids policy review,
+OPP0251,Zippy Learning - Little Baby Bum - Sep 2026,ACC006,,U03,Closed Lost,40600.0,0,Event,Little Baby Bum,2026-07-27,2026-09-08,True,False,Went with competitor,
+OPP0252,Pepperpot Pictures - CoComelon - May 2025,ACC035,AG008,U03,Closed Won,160500.0,100,Agency RFP,CoComelon,2025-04-04,2025-05-18,True,True,,IO-2025-0055
+OPP0253,Button & Bow Toys - Supa Strikas - Nov 2025,ACC037,AG009,U08,Closed Won,41900.0,100,Event,Supa Strikas,2025-10-05,2025-11-05,True,True,,IO-2025-0056
+OPP0254,Acorn Essentials - CoComelon - Aug 2025,ACC056,AG003,U02,Closed Lost,203400.0,0,Upsell / renewal,CoComelon,2025-06-21,2025-08-04,True,False,Brand safety / kids policy review,
+OPP0255,Starling Games - Arpo - Oct 2025,ACC059,AG004,U03,Closed Won,276800.0,100,Event,Arpo,2025-08-20,2025-10-03,True,True,,IO-2025-0057
+OPP0256,Tumbletown Kitchen - Oddbods - Jul 2026,ACC058,AG008,U01,Closed Won,163200.0,100,Agency RFP,Oddbods,2026-05-16,2026-06-22,True,True,,IO-2026-0044
+OPP0257,Pepperpot Pictures - Little Baby Bum - Oct 2026,ACC035,AG008,U01,Closed Lost,251400.0,0,Event,Little Baby Bum,2026-08-06,2026-09-10,True,False,No decision,
+OPP0258,Sprout Toys - Little Angel - Nov 2025,ACC060,AG002,U02,Closed Won,182700.0,100,Outbound,Little Angel,2025-09-08,2025-10-08,True,True,,IO-2025-0058
+OPP0259,Juniper Play+ - Go Buster - Jun 2025,ACC036,AG008,U08,Closed Won,423900.0,100,Inbound,Go Buster,2025-03-25,2025-05-15,True,True,,IO-2025-0059
+OPP0260,Willowbrook Getaways - Little Baby Bum - Jun 2026,ACC016,AG005,U08,Closed Won,145300.0,100,Agency RFP,Little Baby Bum,2026-03-26,2026-05-30,True,True,,IO-2026-0045
+OPP0261,Crayonbox Toys - Gecko's Garage - Oct 2026,ACC002,AG004,U06,Proposal Sent,414500.0,40,Event,Gecko's Garage,2026-08-02,2026-09-22,False,False,,
+OPP0262,Driftwood Care - Blippi - Nov 2025,ACC008,AG003,U08,Closed Won,88100.0,100,Inbound,Blippi,2025-09-01,2025-10-26,True,True,,IO-2025-0060
+OPP0263,Puddlejump Stores - CoComelon - Oct 2025,ACC053,,U05,Closed Won,146000.0,100,Inbound,CoComelon,2025-08-07,2025-09-19,True,True,,IO-2025-0061
+OPP0264,Maple & Moss Motors - Little Angel - Aug 2026,ACC020,AG009,U07,Closed Lost,371800.0,0,Event,Little Angel,2026-04-13,2026-08-16,True,False,Pricing,
+OPP0265,Kiddo Playthings - Morphle - Sep 2026,ACC047,AG003,U01,Closed Won,419200.0,100,Inbound,Morphle,2026-08-01,2026-09-17,True,True,,IO-2026-0046
+OPP0266,Riverstone Stores - CoComelon - Nov 2026,ACC042,AG004,U02,Prospecting,106400.0,10,Event,CoComelon,2026-09-06,2026-10-31,False,False,,
+OPP0267,Wiggleworth Games - CoComelon - Oct 2026,ACC029,AG001,U02,Closed Lost,129400.0,0,Upsell / renewal,CoComelon,2026-08-09,2026-09-18,True,False,Pricing,
+OPP0268,Zippy Learning - CoComelon - Jan 2026,ACC006,,U01,Closed Won,18200.0,100,Inbound,CoComelon,2025-10-11,2025-12-24,True,True,,IO-2025-0062
+OPP0269,Lanternfish Foods - Oddbods - Apr 2026,ACC025,AG001,U03,Closed Lost,57900.0,0,Event,Oddbods,2026-02-12,2026-04-01,True,False,Pricing,
+OPP0270,Brightbloom Snacks - Oddbods - Nov 2025,ACC027,,U03,Closed Lost,131700.0,0,Upsell / renewal,Oddbods,2025-08-19,2025-10-14,True,False,Timing / flight moved,
+OPP0271,Button & Bow Toys - Supa Strikas - Oct 2026,ACC037,AG009,U08,Closed Won,144900.0,100,Outbound,Supa Strikas,2026-08-05,2026-09-08,True,True,,IO-2026-0047
+OPP0272,Willowbrook Getaways - Blippi - Feb 2025,ACC016,AG005,U08,Closed Won,97300.0,100,Outbound,Blippi,2025-01-12,2025-02-07,True,True,,IO-2025-0063
+OPP0273,Merrymint Market - Oddbods - Oct 2026,ACC005,AG009,U03,RFP Received,210300.0,25,Inbound,Oddbods,2026-09-10,2026-09-30,False,False,,
+OPP0274,Driftwood Care - Little Angel - Nov 2025,ACC008,AG003,U08,Closed Lost,78400.0,0,Inbound,Little Angel,2025-09-03,2025-10-28,True,False,Pricing,
+OPP0275,Riverstone Stores - CoComelon - Dec 2025,ACC042,AG004,U01,Closed Lost,204700.0,0,Inbound,CoComelon,2025-10-13,2025-12-08,True,False,Budget cut,
+OPP0276,Treetop Pictures - Little Angel - Apr 2025,ACC034,AG001,U02,Closed Lost,187800.0,0,Agency RFP,Little Angel,2025-02-05,2025-03-31,True,False,Pricing,
+OPP0277,Pebblestone Baby - CoComelon - Jun 2025,ACC017,,U01,Closed Lost,59200.0,0,Upsell / renewal,CoComelon,2025-04-09,2025-06-09,True,False,No decision,
+OPP0278,Wiggleworth Games - CoComelon - Aug 2025,ACC029,AG001,U02,Closed Lost,177800.0,0,Upsell / renewal,CoComelon,2025-07-02,2025-08-04,True,False,Brand safety / kids policy review,
+OPP0279,Otter & Oak Outlet - CoComelon - Nov 2025,ACC013,,U06,Closed Lost,140100.0,0,Upsell / renewal,CoComelon,2025-09-20,2025-10-16,True,False,Went with competitor,
+OPP0280,Willowbrook Getaways - Blippi - Feb 2026,ACC016,AG005,U08,Closed Lost,175600.0,0,Inbound,Blippi,2025-12-06,2026-01-29,True,False,Brand safety / kids policy review,
+OPP0281,Crayonbox Toys - Supa Strikas - May 2025,ACC002,AG004,U06,Closed Won,232900.0,100,Event,Supa Strikas,2025-03-08,2025-05-09,True,True,,IO-2025-0064
+OPP0282,Firefly Foods - Oddbods - Mar 2025,ACC032,AG009,U04,Closed Lost,89800.0,0,Inbound,Oddbods,2025-01-21,2025-03-12,True,False,No decision,
+OPP0283,Starling Games - Oddbods - Oct 2025,ACC059,AG004,U03,Closed Lost,641200.0,0,Outbound,Oddbods,2025-08-28,2025-09-24,True,False,Brand safety / kids policy review,
+OPP0284,Otter & Oak Outlet - CoComelon - Oct 2026,ACC013,,U06,Proposal Sent,248200.0,40,Inbound,CoComelon,2026-08-05,2026-09-13,False,False,,
+OPP0285,Rocket Pup Outfitters - Supa Strikas - Aug 2026,ACC010,AG003,U01,Closed Lost,34400.0,0,Outbound,Supa Strikas,2026-06-15,2026-08-06,True,False,No decision,
+OPP0286,Moonpie Littles - CoComelon - May 2026,ACC049,AG005,U02,Closed Lost,116300.0,0,Inbound,CoComelon,2026-03-03,2026-05-12,True,False,Pricing,
+OPP0287,Lanternfish Foods - Morphle - Sep 2025,ACC025,AG001,U01,Closed Lost,90800.0,0,Outbound,Morphle,2025-07-25,2025-09-02,True,False,Pricing,
+OPP0288,Kiddo Playthings - Oddbods - Oct 2026,ACC047,AG003,U02,RFP Received,156500.0,25,Event,Oddbods,2026-08-23,2026-09-27,False,False,,
+OPP0289,Crayonbox Toys - Little Baby Bum - Mar 2026,ACC002,AG004,U07,Closed Lost,298000.0,0,Upsell / renewal,Little Baby Bum,2026-01-20,2026-02-24,True,False,Timing / flight moved,
+OPP0290,Clover Parks - Gecko's Garage - Jan 2026,ACC012,AG010,U05,Closed Lost,224900.0,0,Inbound,Gecko's Garage,2025-12-05,2025-12-29,True,False,Budget cut,
+OPP0291,Sunnyside Play+ - CoComelon - Aug 2026,ACC044,,U08,Closed Lost,258400.0,0,Upsell / renewal,CoComelon,2026-06-12,2026-07-13,True,False,Budget cut,
+OPP0292,Riverstone Stores - Arpo - Oct 2025,ACC042,AG004,U02,Closed Lost,187400.0,0,Upsell / renewal,Arpo,2025-07-27,2025-09-27,True,False,Pricing,
+OPP0293,Acorn Essentials - Little Baby Bum - Jan 2026,ACC056,AG003,U03,Closed Lost,84000.0,0,Event,Little Baby Bum,2026-01-09,2026-01-19,True,False,Pricing,
+OPP0294,Pebblestone Baby - CoComelon - Aug 2026,ACC017,,U02,Closed Won,49500.0,100,Inbound,CoComelon,2026-05-22,2026-07-22,True,True,,IO-2026-0048
+OPP0295,Willowbrook Getaways - Little Baby Bum - Jan 2026,ACC016,AG005,U08,Closed Lost,50000.0,0,Inbound,Little Baby Bum,2025-11-08,2026-01-03,True,False,Went with competitor,
+OPP0296,Rocket Pup Outfitters - Morphle - Aug 2025,ACC010,AG003,U03,Closed Lost,97500.0,0,Inbound,Morphle,2025-06-01,2025-08-10,True,False,Budget cut,
+OPP0297,Honeycomb Market - Oddbods - Nov 2025,ACC011,,U07,Closed Lost,205900.0,0,Agency RFP,Oddbods,2025-09-22,2025-11-08,True,False,Pricing,
+OPP0298,Willowbrook Getaways - Oddbods - Nov 2026,ACC016,AG005,U08,RFP Received,117100.0,25,Outbound,Oddbods,2026-08-10,2026-10-16,False,False,,
+OPP0299,Zippy Learning - CoComelon - Jan 2026,ACC006,,U03,Closed Won,45800.0,100,Event,CoComelon,2025-11-30,2026-01-20,True,True,,IO-2026-0049
+OPP0300,Treetop Pictures - CoComelon - May 2025,ACC034,AG001,U01,Closed Lost,420200.0,0,Inbound,CoComelon,2025-04-12,2025-04-30,True,False,No decision,
+OPP0301,Snugglebug Market - CoComelon - Oct 2025,ACC045,AG004,U08,Closed Lost,93900.0,0,Inbound,CoComelon,2025-07-25,2025-10-03,True,False,Brand safety / kids policy review,
+OPP0302,Zippy Learning - Oddbods - Feb 2026,ACC006,,U02,Closed Lost,60900.0,0,Upsell / renewal,Oddbods,2025-12-04,2026-02-13,True,False,Budget cut,
+OPP0303,Acorn Essentials - Little Baby Bum - Sep 2025,ACC056,AG003,U02,Closed Won,89100.0,100,Upsell / renewal,Little Baby Bum,2025-06-29,2025-08-10,True,True,,IO-2025-0065
+OPP0304,Tinkertown Learning - CoComelon - Jul 2026,ACC040,AG010,U05,Closed Won,36300.0,100,Inbound,CoComelon,2026-05-04,2026-06-30,True,True,,IO-2026-0050
+OPP0305,Snugglebug Market - CoComelon - Oct 2026,ACC045,AG004,U08,Closed Lost,170900.0,0,Event,CoComelon,2026-08-17,2026-09-11,True,False,Brand safety / kids policy review,
+OPP0306,Marigold Mobility - Blippi - Jul 2025,ACC018,,U03,Closed Lost,204100.0,0,Inbound,Blippi,2025-03-18,2025-06-28,True,False,Timing / flight moved,
+OPP0307,Wildflower Play+ - Blippi - Mar 2026,ACC023,AG009,U06,Closed Lost,463300.0,0,Inbound,Blippi,2026-02-16,2026-03-08,True,False,Pricing,
+OPP0308,Brightbloom Snacks - CoComelon - Oct 2025,ACC027,,U02,Closed Won,140800.0,100,Upsell / renewal,CoComelon,2025-08-20,2025-10-02,True,True,,IO-2025-0066
+OPP0309,Firefly Foods - Supa Strikas - Jul 2026,ACC032,AG009,U04,Closed Won,158800.0,100,Upsell / renewal,Supa Strikas,2026-05-29,2026-07-08,True,True,,IO-2026-0051
+OPP0310,Gumdrop Games - Blippi - Dec 2025,ACC021,,U08,Closed Won,169000.0,100,Event,Blippi,2025-09-27,2025-11-23,True,True,,IO-2025-0067
+OPP0311,Treetop Pictures - CoComelon - Oct 2025,ACC034,AG001,U02,Closed Won,255600.0,100,Agency RFP,CoComelon,2025-08-16,2025-10-08,True,True,,IO-2025-0068
+OPP0312,Snugglebug Market - CoComelon - Oct 2026,ACC045,AG004,U08,Negotiation,93800.0,70,Upsell / renewal,CoComelon,2026-08-19,2026-09-27,False,False,,
+OPP0313,Lanternfish Foods - Supa Strikas - Sep 2025,ACC025,AG001,U01,Closed Won,59100.0,100,Outbound,Supa Strikas,2025-07-17,2025-08-31,True,True,,IO-2025-0069
+OPP0314,Zippy Learning - CoComelon - Aug 2025,ACC006,,U01,Closed Won,111400.0,100,Inbound,CoComelon,2025-06-20,2025-08-15,True,True,,IO-2025-0070
+OPP0315,Crayonbox Toys - CoComelon - Oct 2026,ACC002,AG004,U06,Proposal Sent,164600.0,40,Inbound,CoComelon,2026-08-19,2026-09-25,False,False,,
+OPP0316,Brightbloom Snacks - Morphle - Feb 2026,ACC027,,U01,Closed Lost,153700.0,0,Inbound,Morphle,2025-11-29,2026-02-05,True,False,Timing / flight moved,
+OPP0317,Hazelnut Kids Wear - Supa Strikas - Dec 2025,ACC057,AG007,U02,Closed Lost,74600.0,0,Outbound,Supa Strikas,2025-09-21,2025-11-12,True,False,Went with competitor,
+OPP0318,Paper Moon Getaways - CoComelon - May 2026,ACC001,AG004,U08,Closed Lost,65800.0,0,Agency RFP,CoComelon,2026-03-13,2026-05-15,True,False,No decision,
+OPP0319,Tumbletown Kitchen - CoComelon - Apr 2025,ACC058,AG008,U01,Closed Lost,132400.0,0,Agency RFP,CoComelon,2025-02-14,2025-04-04,True,False,Budget cut,
+OPP0320,Copperkettle Studios - CoComelon - Jun 2026,ACC007,AG006,U01,Closed Won,250800.0,100,Event,CoComelon,2026-05-19,2026-06-11,True,True,,IO-2026-0052
+OPP0321,Pepperpot Pictures - Little Angel - Feb 2026,ACC035,AG008,U02,Closed Lost,109700.0,0,Agency RFP,Little Angel,2025-12-23,2026-02-03,True,False,Budget cut,
+OPP0322,Sunnyside Play+ - Supa Strikas - Apr 2025,ACC044,,U08,Closed Won,148900.0,100,Inbound,Supa Strikas,2025-03-10,2025-04-08,True,True,,IO-2025-0071
+OPP0323,Paper Moon Getaways - Supa Strikas - Mar 2026,ACC001,AG004,U08,Closed Won,420000.0,100,Inbound,Supa Strikas,2026-01-07,2026-02-25,True,True,,IO-2026-0053
+OPP0324,Crayonbox Toys - CoComelon - Nov 2025,ACC002,AG004,U07,Closed Won,243300.0,100,Outbound,CoComelon,2025-09-20,2025-10-30,True,True,,IO-2025-0072
+OPP0325,Honeycomb Market - CoComelon - Oct 2026,ACC011,,U06,Closed Lost,126100.0,0,Event,CoComelon,2026-07-11,2026-09-18,True,False,No decision,
+OPP0326,Larkspur Play+ - Little Angel - Feb 2026,ACC043,AG002,U07,Closed Won,104600.0,100,Agency RFP,Little Angel,2026-01-25,2026-02-08,True,True,,IO-2026-0054
+OPP0327,Copperkettle Studios - Oddbods - Jul 2026,ACC007,AG006,U03,Closed Lost,64900.0,0,Agency RFP,Oddbods,2026-05-30,2026-07-02,True,False,Timing / flight moved,
+OPP0328,Acorn Essentials - Arpo - Oct 2025,ACC056,AG003,U01,Closed Lost,135700.0,0,Event,Arpo,2025-08-09,2025-10-01,True,False,Brand safety / kids policy review,
+OPP0329,Brightbloom Snacks - Supa Strikas - Jun 2026,ACC027,,U03,Closed Lost,71900.0,0,Outbound,Supa Strikas,2026-04-30,2026-05-22,True,False,Budget cut,
+OPP0330,Lanternfish Foods - Blippi - Apr 2026,ACC025,AG001,U01,Closed Lost,105400.0,0,Outbound,Blippi,2026-02-02,2026-04-06,True,False,Budget cut,
+OPP0331,Lanternfish Foods - Blippi - Mar 2026,ACC025,AG001,U02,Closed Won,77100.0,100,Outbound,Blippi,2026-02-16,2026-03-08,True,True,,IO-2026-0055
+OPP0332,Hopscotch Toys - Little Angel - Nov 2026,ACC026,,U06,Prospecting,147200.0,10,Agency RFP,Little Angel,2026-09-10,2026-10-26,False,False,,
+OPP0333,Pepperpot Pictures - Blippi - Jul 2025,ACC035,AG008,U02,Closed Lost,148600.0,0,Outbound,Blippi,2025-06-18,2025-07-08,True,False,Timing / flight moved,
+OPP0334,Juniper Play+ - Little Angel - Feb 2025,ACC036,AG008,U08,Closed Lost,125200.0,0,Outbound,Little Angel,2025-01-17,2025-02-08,True,False,Timing / flight moved,
+OPP0335,Marigold Mobility - CoComelon - Aug 2025,ACC018,,U03,Closed Lost,108600.0,0,Event,CoComelon,2025-03-31,2025-08-05,True,False,Brand safety / kids policy review,
+OPP0336,Firefly Foods - CoComelon - Oct 2025,ACC032,AG009,U04,Closed Won,59900.0,100,Event,CoComelon,2025-09-05,2025-09-30,True,True,,IO-2025-0073
+OPP0337,Marigold Mobility - CoComelon - Apr 2026,ACC018,,U01,Closed Lost,176600.0,0,Inbound,CoComelon,2025-11-27,2026-03-29,True,False,Budget cut,
+OPP0338,Acorn Essentials - CoComelon - Sep 2025,ACC056,AG003,U01,Closed Won,41000.0,100,Outbound,CoComelon,2025-07-11,2025-08-23,True,True,,IO-2025-0074
+OPP0339,Nimbus Toys - CoComelon - Mar 2026,ACC048,,U07,Closed Lost,82900.0,0,Event,CoComelon,2026-01-20,2026-02-12,True,False,Budget cut,
+OPP0340,Acorn Essentials - Supa Strikas - Aug 2025,ACC056,AG003,U02,Closed Won,66900.0,100,Agency RFP,Supa Strikas,2025-06-12,2025-07-24,True,True,,IO-2025-0075
+OPP0341,Wiggleworth Games - Little Angel - Oct 2026,ACC029,AG001,U01,Negotiation,214700.0,70,Upsell / renewal,Little Angel,2026-08-08,2026-09-22,False,False,,
+OPP0342,Snugglebug Market - Little Baby Bum - Nov 2025,ACC045,AG004,U08,Closed Lost,300700.0,0,Event,Little Baby Bum,2025-08-27,2025-11-01,True,False,Timing / flight moved,
+OPP0343,Northwind Pictures - CoComelon - Dec 2025,ACC003,AG006,U07,Closed Won,443200.0,100,Inbound,CoComelon,2025-11-23,2025-12-24,True,True,,IO-2025-0076
+OPP0344,Tumbletown Kitchen - Little Angel - May 2025,ACC058,AG008,U02,Closed Lost,106500.0,0,Inbound,Little Angel,2025-03-18,2025-05-04,True,False,Went with competitor,
+OPP0345,Acorn Essentials - Little Baby Bum - Jun 2025,ACC056,AG003,U01,Closed Won,117200.0,100,Agency RFP,Little Baby Bum,2025-05-03,2025-06-11,True,True,,IO-2025-0077
+OPP0346,Saffron Playthings - CoComelon - Oct 2025,ACC030,AG004,U01,Closed Won,215100.0,100,Event,CoComelon,2025-09-12,2025-09-30,True,True,,IO-2025-0078
+OPP0347,Tumbletown Kitchen - CoComelon - Jun 2026,ACC058,AG008,U03,Closed Lost,229100.0,0,Upsell / renewal,CoComelon,2026-04-03,2026-05-28,True,False,Timing / flight moved,
+OPP0348,Pepperpot Pictures - Gecko's Garage - May 2026,ACC035,AG008,U01,Closed Won,133000.0,100,Outbound,Gecko's Garage,2026-04-10,2026-05-02,True,True,,IO-2026-0056
+OPP0349,Kiddo Playthings - CoComelon - Nov 2025,ACC047,AG003,U02,Closed Won,180800.0,100,Agency RFP,CoComelon,2025-09-08,2025-10-29,True,True,,IO-2025-0079
+OPP0350,Brightbloom Snacks - Blippi - Jul 2026,ACC027,,U01,Closed Lost,31800.0,0,Agency RFP,Blippi,2026-05-23,2026-07-13,True,False,Budget cut,
+OPP0351,Tumbletown Kitchen - CoComelon - Nov 2025,ACC058,AG008,U03,Closed Lost,52800.0,0,Inbound,CoComelon,2025-09-02,2025-10-25,True,False,Budget cut,
+OPP0352,Quill Labs - Blippi - Jun 2025,ACC014,AG006,U07,Closed Lost,41000.0,0,Upsell / renewal,Blippi,2025-04-07,2025-05-29,True,False,Brand safety / kids policy review,
+OPP0353,Acorn Essentials - Little Baby Bum - Dec 2025,ACC056,AG003,U02,Closed Won,38000.0,100,Inbound,Little Baby Bum,2025-09-29,2025-11-18,True,True,,IO-2025-0080
+OPP0354,Meadowlark Foods - Blippi - Apr 2025,ACC015,AG005,U04,Closed Won,322600.0,100,Upsell / renewal,Blippi,2025-02-24,2025-04-08,True,True,,IO-2025-0081
+OPP0355,Kitefield Snacks - Blippi - Jul 2025,ACC046,AG010,U06,Closed Won,140100.0,100,Upsell / renewal,Blippi,2025-05-23,2025-07-07,True,True,,IO-2025-0082
+OPP0356,Riverstone Stores - Oddbods - Sep 2025,ACC042,AG004,U02,Closed Won,161600.0,100,Event,Oddbods,2025-08-23,2025-09-18,True,True,,IO-2025-0083
+OPP0357,Tinkertown Learning - CoComelon - Jul 2025,ACC040,AG010,U04,Closed Lost,51400.0,0,Agency RFP,CoComelon,2025-05-20,2025-07-02,True,False,Pricing,
+OPP0358,Kitefield Snacks - Blippi - May 2025,ACC046,AG010,U06,Closed Lost,68300.0,0,Agency RFP,Blippi,2025-04-10,2025-05-04,True,False,Budget cut,
+OPP0359,Zippy Learning - Blippi - May 2026,ACC006,,U01,Closed Won,97000.0,100,Inbound,Blippi,2026-04-01,2026-05-23,True,True,,IO-2026-0057
+OPP0360,Acorn Essentials - Oddbods - Jul 2025,ACC056,AG003,U02,Closed Won,38500.0,100,Event,Oddbods,2025-04-18,2025-07-04,True,True,,IO-2025-0084
+OPP0361,Little Oak Toys - Little Baby Bum - Oct 2025,ACC051,AG008,U06,Closed Lost,194600.0,0,Inbound,Little Baby Bum,2025-08-25,2025-09-28,True,False,Budget cut,
+OPP0362,Zippy Learning - Supa Strikas - Jan 2026,ACC006,,U03,Closed Lost,68300.0,0,Inbound,Supa Strikas,2025-12-15,2025-12-31,True,False,Went with competitor,
+OPP0363,Kitefield Snacks - Little Baby Bum - Jul 2026,ACC046,AG010,U06,Closed Lost,34300.0,0,Upsell / renewal,Little Baby Bum,2026-05-28,2026-07-04,True,False,Brand safety / kids policy review,
+OPP0364,Wonderwell Games - Supa Strikas - Nov 2026,ACC004,AG002,U06,Prospecting,169100.0,10,Event,Supa Strikas,2026-09-10,2026-11-12,False,False,,
+OPP0365,Honeycomb Market - CoComelon - Nov 2025,ACC011,,U07,Closed Lost,160800.0,0,Agency RFP,CoComelon,2025-09-17,2025-10-21,True,False,Budget cut,
+OPP0366,Cloudberry Baby - Blippi - Mar 2025,ACC041,AG010,U04,Closed Won,67300.0,100,Outbound,Blippi,2025-01-19,2025-02-25,True,True,,IO-2025-0085
+OPP0367,Otter & Oak Outlet - Supa Strikas - Oct 2025,ACC013,,U07,Closed Lost,104200.0,0,Upsell / renewal,Supa Strikas,2025-08-27,2025-09-25,True,False,Went with competitor,
+OPP0368,Sprout Toys - CoComelon - Sep 2025,ACC060,AG002,U02,Closed Won,171200.0,100,Inbound,CoComelon,2025-07-08,2025-08-17,True,True,,IO-2025-0086
+OPP0369,Willowbrook Getaways - Morphle - May 2026,ACC016,AG005,U08,Closed Lost,105400.0,0,Upsell / renewal,Morphle,2026-03-21,2026-04-18,True,False,No decision,
+OPP0370,Clover Parks - Oddbods - Mar 2026,ACC012,AG010,U05,Closed Lost,89200.0,0,Agency RFP,Oddbods,2026-01-06,2026-02-22,True,False,Timing / flight moved,
+OPP0371,Zippy Learning - CoComelon - Jun 2026,ACC006,,U02,Closed Won,79300.0,100,Inbound,CoComelon,2026-03-28,2026-06-15,True,True,,IO-2026-0058
+OPP0372,Paper Moon Getaways - CoComelon - Feb 2026,ACC001,AG004,U08,Closed Won,166400.0,100,Event,CoComelon,2025-12-25,2026-02-04,True,True,,IO-2026-0059
+OPP0373,Pepperpot Pictures - Little Baby Bum - Jul 2025,ACC035,AG008,U01,Closed Lost,149400.0,0,Event,Little Baby Bum,2025-06-03,2025-06-29,True,False,No decision,
+OPP0374,Maple & Moss Motors - CoComelon - Mar 2026,ACC020,AG009,U07,Closed Lost,905000.0,0,Outbound,CoComelon,2025-09-06,2026-02-11,True,False,Brand safety / kids policy review,
+OPP0375,Quill Labs - CoComelon - Sep 2025,ACC014,AG006,U06,Closed Lost,33500.0,0,Outbound,CoComelon,2025-07-04,2025-08-17,True,False,Brand safety / kids policy review,
+OPP0376,Paper Moon Getaways - Gecko's Garage - Apr 2025,ACC001,AG004,U08,Closed Lost,129300.0,0,Event,Gecko's Garage,2025-03-16,2025-04-19,True,False,Went with competitor,
+OPP0377,Kitefield Snacks - Little Angel - Jun 2025,ACC046,AG010,U07,Closed Won,93600.0,100,Inbound,Little Angel,2025-03-27,2025-06-17,True,True,,IO-2025-0087
+OPP0378,Juniper Play+ - CoComelon - Dec 2025,ACC036,AG008,U08,Closed Lost,247300.0,0,Upsell / renewal,CoComelon,2025-10-19,2025-12-04,True,False,Timing / flight moved,
+OPP0379,Starling Games - Blippi - Oct 2026,ACC059,AG004,U01,Negotiation,202100.0,70,Upsell / renewal,Blippi,2026-09-01,2026-09-24,False,False,,
+OPP0380,Acorn Essentials - Oddbods - Mar 2026,ACC056,AG003,U01,Closed Lost,105400.0,0,Upsell / renewal,Oddbods,2025-12-29,2026-02-22,True,False,Pricing,
+OPP0381,Cobblestone Market - CoComelon - Nov 2025,ACC050,AG005,U01,Closed Lost,87300.0,0,Outbound,CoComelon,2025-10-17,2025-10-30,True,False,Timing / flight moved,
+OPP0382,Paper Moon Getaways - Little Angel - Aug 2026,ACC001,AG004,U08,Closed Lost,272800.0,0,Event,Little Angel,2026-05-18,2026-07-17,True,False,Pricing,
+OPP0383,Lanternfish Foods - Blippi - Jan 2026,ACC025,AG001,U03,Closed Lost,50000.0,0,Agency RFP,Blippi,2025-10-27,2025-12-25,True,False,Went with competitor,
+OPP0384,Acorn Essentials - Blippi - Nov 2025,ACC056,AG003,U01,Closed Won,174800.0,100,Outbound,Blippi,2025-09-11,2025-10-30,True,True,,IO-2025-0088
+OPP0385,Juniper Play+ - Blippi - Apr 2026,ACC036,AG008,U08,Closed Won,244100.0,100,Inbound,Blippi,2026-02-26,2026-04-01,True,True,,IO-2026-0060
+OPP0386,Quill Labs - Blippi - Mar 2025,ACC014,AG006,U06,Closed Won,76500.0,100,Upsell / renewal,Blippi,2025-01-14,2025-03-09,True,True,,IO-2025-0089
+OPP0387,Sprout Toys - Blippi - Sep 2026,ACC060,AG002,U02,Closed Lost,305300.0,0,Inbound,Blippi,2026-07-12,2026-08-21,True,False,Pricing,
+OPP0388,Tumbletown Kitchen - Go Buster - May 2025,ACC058,AG008,U03,Closed Won,40500.0,100,Upsell / renewal,Go Buster,2025-04-21,2025-05-09,True,True,,IO-2025-0090
+OPP0389,Brightbloom Snacks - Morphle - Apr 2026,ACC027,,U02,Closed Lost,172900.0,0,Event,Morphle,2026-02-26,2026-04-05,True,False,Pricing,
+OPP0390,Kitefield Snacks - CoComelon - Aug 2026,ACC046,AG010,U06,Closed Lost,156600.0,0,Agency RFP,CoComelon,2026-05-27,2026-07-23,True,False,Budget cut,
+OPP0391,Starling Games - CoComelon - Sep 2026,ACC059,AG004,U03,Closed Lost,352400.0,0,Event,CoComelon,2026-07-16,2026-09-03,True,False,Brand safety / kids policy review,
+OPP0392,Acorn Essentials - CoComelon - Aug 2026,ACC056,AG003,U02,Closed Lost,61600.0,0,Inbound,CoComelon,2026-06-16,2026-08-08,True,False,Went with competitor,
+OPP0393,Zippy Learning - Little Baby Bum - Apr 2026,ACC006,,U02,Closed Won,37100.0,100,Outbound,Little Baby Bum,2025-12-25,2026-03-15,True,True,,IO-2026-0061
+OPP0394,Willowbrook Getaways - CoComelon - Jun 2026,ACC016,AG005,U08,Closed Won,121400.0,100,Event,CoComelon,2026-03-27,2026-05-19,True,True,,IO-2026-0062
+OPP0395,Larkspur Play+ - Blippi - Oct 2025,ACC043,AG002,U07,Closed Lost,340500.0,0,Inbound,Blippi,2025-08-07,2025-09-11,True,False,Pricing,
+OPP0396,Acorn Essentials - Gecko's Garage - Nov 2025,ACC056,AG003,U01,Closed Lost,101800.0,0,Outbound,Gecko's Garage,2025-10-08,2025-10-25,True,False,Pricing,
+OPP0397,Wildflower Play+ - Morphle - Aug 2025,ACC023,AG009,U07,Closed Lost,170000.0,0,Agency RFP,Morphle,2025-07-01,2025-07-24,True,False,Timing / flight moved,
+OPP0398,Driftwood Care - Gecko's Garage - Feb 2026,ACC008,AG003,U08,Closed Lost,63200.0,0,Event,Gecko's Garage,2025-12-07,2026-01-29,True,False,Budget cut,
+OPP0399,Sprout Toys - CoComelon - Oct 2025,ACC060,AG002,U01,Closed Lost,319600.0,0,Inbound,CoComelon,2025-08-30,2025-10-06,True,False,Brand safety / kids policy review,
+OPP0400,Sprout Toys - Blippi - Oct 2025,ACC060,AG002,U01,Closed Won,83500.0,100,Event,Blippi,2025-08-05,2025-09-18,True,True,,IO-2025-0091
+OPP0401,Meadowlark Foods - CoComelon - Aug 2025,ACC015,AG005,U05,Closed Won,97900.0,100,Upsell / renewal,CoComelon,2025-06-12,2025-08-05,True,True,,IO-2025-0092
+OPP0402,Seashell Labs - Oddbods - Jun 2025,ACC052,,U02,Closed Won,89600.0,100,Inbound,Oddbods,2025-05-23,2025-06-16,True,True,,IO-2025-0093
+OPP0403,Bluebell Baby - CoComelon - Feb 2025,ACC028,AG004,U07,Closed Lost,134100.0,0,Inbound,CoComelon,2025-01-06,2025-01-29,True,False,Pricing,
+OPP0404,Rocket Pup Outfitters - Blippi - Oct 2025,ACC010,AG003,U02,Closed Lost,23200.0,0,Outbound,Blippi,2025-08-16,2025-10-01,True,False,Budget cut,
+OPP0405,Copperkettle Studios - Blippi - Feb 2026,ACC007,AG006,U01,Closed Won,117000.0,100,Outbound,Blippi,2025-12-14,2026-01-20,True,True,,IO-2026-0063
+OPP0406,Tinkertown Learning - Blippi - Apr 2025,ACC040,AG010,U05,Closed Lost,105400.0,0,Agency RFP,Blippi,2025-01-12,2025-03-16,True,False,No decision,
+OPP0407,Tumbletown Kitchen - CoComelon - May 2026,ACC058,AG008,U02,Closed Lost,103600.0,0,Upsell / renewal,CoComelon,2026-04-11,2026-04-26,True,False,Budget cut,
+OPP0408,Pinwheel Playthings - Gecko's Garage - Oct 2025,ACC009,AG010,U04,Closed Lost,140500.0,0,Event,Gecko's Garage,2025-08-07,2025-09-21,True,False,No decision,
+OPP0409,Rocket Pup Outfitters - CoComelon - May 2026,ACC010,AG003,U03,Closed Lost,65200.0,0,Inbound,CoComelon,2026-03-20,2026-05-12,True,False,Brand safety / kids policy review,
+OPP0410,Firefly Foods - Little Baby Bum - Dec 2025,ACC032,AG009,U04,Closed Lost,63400.0,0,Upsell / renewal,Little Baby Bum,2025-10-09,2025-12-01,True,False,Budget cut,
+OPP0411,Moonpie Littles - CoComelon - Jun 2025,ACC049,AG005,U02,Closed Lost,121900.0,0,Upsell / renewal,CoComelon,2025-03-22,2025-05-12,True,False,Timing / flight moved,
+OPP0412,Kiddo Playthings - Supa Strikas - Jun 2026,ACC047,AG003,U01,Closed Won,334900.0,100,Event,Supa Strikas,2026-05-22,2026-06-07,True,True,,IO-2026-0064
+OPP0413,Treetop Pictures - Little Angel - Aug 2025,ACC034,AG001,U02,Closed Won,120000.0,100,Event,Little Angel,2025-06-20,2025-07-18,True,True,,IO-2025-0094
+OPP0414,Marigold Mobility - CoComelon - Jul 2026,ACC018,,U03,Closed Lost,529600.0,0,Outbound,CoComelon,2026-04-19,2026-07-05,True,False,Brand safety / kids policy review,
+OPP0415,Pinwheel Playthings - CoComelon - Jun 2026,ACC009,AG010,U05,Closed Lost,89300.0,0,Upsell / renewal,CoComelon,2026-04-15,2026-05-15,True,False,No decision,
+OPP0416,Blue Kite Outfitters - Supa Strikas - Jul 2025,ACC022,AG004,U08,Closed Lost,56800.0,0,Event,Supa Strikas,2025-06-08,2025-06-23,True,False,Timing / flight moved,
+OPP0417,Hazelnut Kids Wear - CoComelon - Jun 2026,ACC057,AG007,U03,Closed Lost,46300.0,0,Outbound,CoComelon,2026-05-04,2026-05-24,True,False,Brand safety / kids policy review,
+OPP0418,Meadowlark Foods - CoComelon - Apr 2025,ACC015,AG005,U05,Closed Lost,74300.0,0,Agency RFP,CoComelon,2025-03-08,2025-04-09,True,False,Brand safety / kids policy review,
+OPP0419,Kitefield Snacks - Blippi - Nov 2025,ACC046,AG010,U06,Closed Won,123800.0,100,Agency RFP,Blippi,2025-08-22,2025-11-02,True,True,,IO-2025-0095
+OPP0420,Copperkettle Studios - CoComelon - Sep 2025,ACC007,AG006,U02,Closed Lost,179400.0,0,Inbound,CoComelon,2025-07-21,2025-08-12,True,False,No decision,
+OPP0421,Harborview Learning - CoComelon - Dec 2025,ACC038,AG009,U02,Closed Won,52700.0,100,Outbound,CoComelon,2025-09-28,2025-11-17,True,True,,IO-2025-0096
+OPP0422,Moonpie Littles - CoComelon - Oct 2025,ACC049,AG005,U01,Closed Won,139500.0,100,Inbound,CoComelon,2025-08-04,2025-09-12,True,True,,IO-2025-0097
+OPP0423,Otter & Oak Outlet - Supa Strikas - Nov 2025,ACC013,,U07,Closed Lost,196300.0,0,Outbound,Supa Strikas,2025-08-11,2025-10-23,True,False,Brand safety / kids policy review,
+OPP0424,Kitefield Snacks - Blippi - Jan 2026,ACC046,AG010,U06,Closed Lost,77900.0,0,Upsell / renewal,Blippi,2025-11-03,2025-12-14,True,False,No decision,
+OPP0425,Meadowlark Foods - Arpo - Jul 2026,ACC015,AG005,U05,Closed Lost,148800.0,0,Upsell / renewal,Arpo,2026-06-09,2026-07-05,True,False,No decision,
+OPP0426,Northwind Pictures - CoComelon - Oct 2025,ACC003,AG006,U06,Closed Lost,156800.0,0,Upsell / renewal,CoComelon,2025-08-19,2025-09-22,True,False,No decision,
+OPP0427,Lanternfish Foods - Gecko's Garage - Aug 2026,ACC025,AG001,U02,Closed Lost,152400.0,0,Inbound,Gecko's Garage,2026-07-08,2026-08-13,True,False,Timing / flight moved,
+OPP0428,Meadowlark Foods - CoComelon - Jul 2025,ACC015,AG005,U05,Closed Lost,55400.0,0,Inbound,CoComelon,2025-05-21,2025-07-08,True,False,Pricing,
+OPP0429,Kiddo Playthings - Oddbods - Oct 2026,ACC047,AG003,U03,RFP Received,170900.0,25,Inbound,Oddbods,2026-08-28,2026-10-20,False,False,,
+OPP0430,Juniper Play+ - Oddbods - Apr 2026,ACC036,AG008,U08,Closed Won,403800.0,100,Agency RFP,Oddbods,2026-03-02,2026-03-25,True,True,,IO-2026-0065
+OPP0431,Hazelnut Kids Wear - Little Angel - Jul 2026,ACC057,AG007,U03,Closed Won,100600.0,100,Event,Little Angel,2026-04-28,2026-07-05,True,True,,IO-2026-0066
+OPP0432,Gumdrop Games - CoComelon - Oct 2025,ACC021,,U08,Closed Won,177200.0,100,Inbound,CoComelon,2025-08-23,2025-10-03,True,True,,IO-2025-0098
+OPP0433,Riverstone Stores - Blippi - Oct 2025,ACC042,AG004,U03,Closed Lost,151200.0,0,Outbound,Blippi,2025-07-23,2025-09-18,True,False,Pricing,
+OPP0434,Pinwheel Playthings - CoComelon - May 2025,ACC009,AG010,U04,Closed Lost,193300.0,0,Upsell / renewal,CoComelon,2025-04-08,2025-05-08,True,False,Brand safety / kids policy review,
+OPP0435,Larkspur Play+ - Little Baby Bum - May 2026,ACC043,AG002,U07,Closed Won,235100.0,100,Event,Little Baby Bum,2026-04-08,2026-04-18,True,True,,IO-2026-0067
+OPP0436,Crayonbox Toys - Morphle - Oct 2025,ACC002,AG004,U06,Closed Won,139600.0,100,Event,Morphle,2025-08-09,2025-09-26,True,True,,IO-2025-0099
+OPP0437,Acorn Essentials - Supa Strikas - Jun 2026,ACC056,AG003,U03,Closed Won,166100.0,100,Event,Supa Strikas,2026-04-25,2026-06-12,True,True,,IO-2026-0068
+OPP0438,Little Oak Toys - Oddbods - Oct 2025,ACC051,AG008,U06,Closed Won,258800.0,100,Outbound,Oddbods,2025-09-03,2025-10-01,True,True,,IO-2025-0100
+OPP0439,Gumdrop Games - Little Angel - Nov 2025,ACC021,,U08,Closed Won,866600.0,100,Upsell / renewal,Little Angel,2025-09-04,2025-10-27,True,True,,IO-2025-0101
+OPP0440,Harborview Learning - Morphle - Jul 2025,ACC038,AG009,U03,Closed Lost,82700.0,0,Outbound,Morphle,2025-04-17,2025-06-11,True,False,Budget cut,
+OPP0441,Gumdrop Games - Blippi - Nov 2026,ACC021,,U08,Prospecting,66500.0,10,Outbound,Blippi,2026-09-10,2026-10-31,False,False,,
+OPP0442,Wonderwell Games - Little Baby Bum - Oct 2026,ACC004,AG002,U06,Proposal Sent,98700.0,40,Upsell / renewal,Little Baby Bum,2026-08-20,2026-09-21,False,False,,
+OPP0443,Pip & Pop Games - CoComelon - Aug 2026,ACC054,AG001,U08,Closed Won,306000.0,100,Outbound,CoComelon,2026-07-10,2026-08-16,True,True,,IO-2026-0069
+OPP0444,Starling Games - Little Angel - Nov 2026,ACC059,AG004,U01,RFP Received,161600.0,25,Outbound,Little Angel,2026-09-05,2026-10-21,False,False,,
+OPP0445,Starling Games - CoComelon - Oct 2026,ACC059,AG004,U01,Proposal Sent,83000.0,40,Upsell / renewal,CoComelon,2026-08-23,2026-09-27,False,False,,
+OPP0446,Nimbus Toys - Oddbods - Nov 2026,ACC048,,U07,Prospecting,88700.0,10,Upsell / renewal,Oddbods,2026-09-10,2026-10-31,False,False,,
+OPP0447,Nimbus Toys - Oddbods - Nov 2026,ACC048,,U06,Prospecting,185400.0,10,Agency RFP,Oddbods,2026-09-10,2026-10-19,False,False,,
+OPP0448,Pip & Pop Games - CoComelon - Oct 2026,ACC054,AG001,U08,Closed Lost,108800.0,0,Outbound,CoComelon,2026-08-31,2026-09-14,True,False,Pricing,
+OPP0449,Crayonbox Toys - CoComelon - Oct 2026,ACC002,AG004,U07,Negotiation,196400.0,70,Upsell / renewal,CoComelon,2026-08-30,2026-09-25,False,False,,
+OPP0450,Nimbus Toys - Oddbods - Oct 2026,ACC048,,U07,Proposal Sent,189600.0,40,Agency RFP,Oddbods,2026-08-15,2026-10-03,False,False,,
+OPP0451,Pinwheel Playthings - Little Baby Bum - Sep 2026,ACC009,AG010,U04,Closed Lost,66600.0,0,Inbound,Little Baby Bum,2026-08-08,2026-09-07,True,False,No decision,
+OPP0452,Wonderwell Games - CoComelon - Nov 2026,ACC004,AG002,U07,Prospecting,207300.0,10,Event,CoComelon,2026-09-10,2026-11-07,False,False,,
+OPP0453,Pip & Pop Games - Oddbods - Sep 2026,ACC054,AG001,U08,Closed Lost,121600.0,0,Agency RFP,Oddbods,2026-08-18,2026-09-06,True,False,Timing / flight moved,
+OPP0454,Kiddo Playthings - Little Baby Bum - Oct 2026,ACC047,AG003,U03,Negotiation,154300.0,70,Event,Little Baby Bum,2026-08-06,2026-09-24,False,False,,
+OPP0455,Kiddo Playthings - Blippi - Oct 2026,ACC047,AG003,U01,Prospecting,202200.0,10,Agency RFP,Blippi,2026-09-09,2026-10-09,False,False,,
+OPP0456,Sprout Toys - CoComelon - Oct 2026,ACC060,AG002,U03,Negotiation,236500.0,70,Outbound,CoComelon,2026-08-17,2026-09-30,False,False,,
+OPP0457,Crayonbox Toys - Little Angel - Aug 2026,ACC002,AG004,U06,Closed Won,156100.0,100,Inbound,Little Angel,2026-06-27,2026-08-11,True,True,,IO-2026-0070
+OPP0458,Nimbus Toys - CoComelon - Oct 2026,ACC048,,U06,Closed Won,244300.0,100,Outbound,CoComelon,2026-07-24,2026-09-11,True,True,,IO-2026-0071
+OPP0459,Pinwheel Playthings - CoComelon - Oct 2026,ACC009,AG010,U05,RFP Received,605800.0,25,Inbound,CoComelon,2026-08-23,2026-10-04,False,False,,
+OPP0460,Tidepool Playthings - CoComelon - Sep 2026,ACC039,,U01,Closed Won,227100.0,100,Outbound,CoComelon,2026-07-19,2026-08-21,True,True,,IO-2026-0072
+OPP0461,Saffron Playthings - Little Baby Bum - Oct 2026,ACC030,AG004,U03,Proposal Sent,206400.0,40,Inbound,Little Baby Bum,2026-08-26,2026-09-30,False,False,,
+OPP0462,Starling Games - Blippi - Oct 2026,ACC059,AG004,U03,Negotiation,796400.0,70,Outbound,Blippi,2026-08-19,2026-09-24,False,False,,
+OPP0463,Tidepool Playthings - CoComelon - Oct 2026,ACC039,,U02,Closed Won,122900.0,100,Event,CoComelon,2026-08-18,2026-09-18,True,True,,IO-2026-0073
+OPP0464,Tiny Harbor Toys - Supa Strikas - Oct 2026,ACC055,AG009,U07,Closed Lost,99600.0,0,Inbound,Supa Strikas,2026-08-17,2026-09-15,True,False,Timing / flight moved,
+OPP0465,Little Oak Toys - CoComelon - Aug 2026,ACC051,AG008,U06,Closed Lost,250500.0,0,Outbound,CoComelon,2026-07-09,2026-08-20,True,False,Went with competitor,
+OPP0466,Hopscotch Toys - Gecko's Garage - Oct 2026,ACC026,,U07,RFP Received,261300.0,25,Upsell / renewal,Gecko's Garage,2026-09-08,2026-10-08,False,False,,
+OPP0467,Fernwood Playthings - Little Angel - Jul 2026,ACC033,AG004,U07,Closed Won,135100.0,100,Event,Little Angel,2026-06-15,2026-07-16,True,True,,IO-2026-0074
+OPP0468,Wonderwell Games - CoComelon - Sep 2026,ACC004,AG002,U06,Closed Lost,251100.0,0,Agency RFP,CoComelon,2026-07-04,2026-08-20,True,False,Timing / flight moved,
+OPP0469,Sprout Toys - Morphle - Nov 2026,ACC060,AG002,U02,RFP Received,845500.0,25,Outbound,Morphle,2026-08-28,2026-10-21,False,False,,
+OPP0470,Tidepool Playthings - CoComelon - Oct 2026,ACC039,,U01,Closed Lost,119900.0,0,Inbound,CoComelon,2026-08-28,2026-09-16,True,False,Budget cut,
+OPP0471,Pinwheel Playthings - Little Baby Bum - Nov 2026,ACC009,AG010,U04,Prospecting,112700.0,10,Inbound,Little Baby Bum,2026-09-10,2026-10-29,False,False,,
+OPP0472,Hopscotch Toys - Blippi - Nov 2026,ACC026,,U06,Prospecting,152600.0,10,Inbound,Blippi,2026-09-10,2026-10-26,False,False,,
+OPP0473,Pip & Pop Games - CoComelon - Oct 2026,ACC054,AG001,U08,RFP Received,216400.0,25,Inbound,CoComelon,2026-09-02,2026-09-27,False,False,,
+OPP0474,Starling Games - CoComelon - Oct 2026,ACC059,AG004,U01,RFP Received,234500.0,25,Inbound,CoComelon,2026-08-29,2026-10-08,False,False,,
+OPP0475,Nimbus Toys - CoComelon - Oct 2026,ACC048,,U07,Closed Won,250800.0,100,Outbound,CoComelon,2026-07-31,2026-09-15,True,True,,IO-2026-0075
+OPP0476,Starling Games - Blippi - Oct 2026,ACC059,AG004,U02,Proposal Sent,69100.0,40,Outbound,Blippi,2026-08-26,2026-09-22,False,False,,
+OPP0477,Pip & Pop Games - Little Baby Bum - Oct 2026,ACC054,AG001,U08,Closed Lost,107900.0,0,Outbound,Little Baby Bum,2026-07-30,2026-09-16,True,False,Went with competitor,
+OPP0478,Bumblebee Toys - Morphle - Oct 2026,ACC024,,U01,Proposal Sent,159900.0,40,Event,Morphle,2026-08-13,2026-09-22,False,False,,
+OPP0479,Lullaby Lane Games - Oddbods - Oct 2026,ACC031,,U01,Negotiation,251000.0,70,Outbound,Oddbods,2026-08-10,2026-09-20,False,False,,
+OPP0480,Little Oak Toys - CoComelon - Oct 2026,ACC051,AG008,U06,Negotiation,366300.0,70,Event,CoComelon,2026-08-06,2026-09-26,False,False,,
+OPP0481,Pinwheel Playthings - Blippi - Oct 2026,ACC009,AG010,U05,Proposal Sent,181100.0,40,Outbound,Blippi,2026-08-16,2026-09-25,False,False,,
+OPP0482,Saffron Playthings - Oddbods - Oct 2026,ACC030,AG004,U03,Negotiation,118000.0,70,Outbound,Oddbods,2026-08-14,2026-09-24,False,False,,
+OPP0483,Hopscotch Toys - Oddbods - Oct 2026,ACC026,,U06,Proposal Sent,204800.0,40,Inbound,Oddbods,2026-09-02,2026-09-28,False,False,,
+OPP0484,Wiggleworth Games - Gecko's Garage - Nov 2026,ACC029,AG001,U01,RFP Received,209700.0,25,Upsell / renewal,Gecko's Garage,2026-09-03,2026-11-08,False,False,,
+OPP0485,Lullaby Lane Games - Blippi - Oct 2026,ACC031,,U03,Proposal Sent,99500.0,40,Outbound,Blippi,2026-08-14,2026-09-28,False,False,,

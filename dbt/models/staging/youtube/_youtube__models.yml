@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_youtube__channels
+    description: >
+      REAL public channel stats pulled from the YouTube Data API (not
+      synthetic). `owner_group` distinguishes Moonbug's own IPs from
+      competitor channels for market-intel comparisons.
+    columns:
+      - name: channel_id
+        tests: [unique, not_null]
+      - name: owner_group
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Moonbug', 'Competitor']
+
+  - name: stg_youtube__videos
+    description: >
+      REAL recent-video stats (most recent ~50 uploads per channel) from the
+      YouTube Data API. `like_count`/`comment_count` are frequently null —
+      YouTube commonly hides these on made-for-kids videos, which is most of
+      this dataset.
+    columns:
+      - name: video_id
+        tests: [unique, not_null]
+      - name: channel_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_youtube__channels')
+                field: channel_id

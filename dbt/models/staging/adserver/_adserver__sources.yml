@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw_adserver
+    schema: raw_adserver
+    tables:
+      - name: campaigns
+      - name: line_items
+      - name: delivery_daily

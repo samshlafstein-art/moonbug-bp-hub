@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: stg_finance__invoices
+    description: >
+      Billing-system export. Dates arrive as MM/DD/YYYY text and are cast to
+      real dates here. About 2% of rows are missing `io_number` (a known
+      export defect) — flagged via `is_missing_io_number` rather than
+      dropped, so finance totals still reconcile. `credit_amount` is the
+      make-good credit issued for under-delivered CPM lines.
+    columns:
+      - name: invoice_no
+        tests: [unique, not_null]
+      - name: io_number
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_crm__opportunities')
+                field: io_number
+              config:
+                where: "io_number is not null"
+      - name: status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Paid', 'Open', 'Overdue']
+      - name: is_missing_io_number
+        description: True for the small share of invoices exported without an IO number and therefore not joinable to CRM/ad-server data without manual review.

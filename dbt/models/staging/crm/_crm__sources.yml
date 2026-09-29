@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_crm
+    schema: raw_crm
+    tables:
+      - name: agencies
+      - name: accounts
+      - name: users
+      - name: opportunities
+      - name: opportunity_stage_history

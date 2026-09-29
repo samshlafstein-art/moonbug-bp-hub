@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_research__brand_lift_studies
+    description: >
+      One row per (study, metric). `lift_pts` is exposed minus control, in
+      percentage points — the standard brand-lift metric. Studies only exist
+      for a subset of larger, completed campaigns (see metrics.md).
+    columns:
+      - name: study_id
+        tests: [not_null]
+      - name: io_number
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_crm__opportunities')
+                field: io_number
+      - name: metric
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Aided Awareness', 'Brand Favorability', 'Purchase Intent']
+
+  - name: stg_research__parent_panel
+    description: Quarterly parent-panel survey, by IP and demographic cut. Use for awareness/favorability trends independent of any specific campaign (Moonbug's "always-on" audience health).

@@ -1,0 +1,61 @@
+account_id,account_name,category,hq_region,agency_id,created_date
+ACC001,Paper Moon Getaways,Theme Parks & Travel,APAC,AG004,2019-10-12
+ACC002,Crayonbox Toys,Toys & Games,UK,AG004,2020-02-18
+ACC003,Northwind Pictures,Family Entertainment & Streaming,UK,AG006,2022-12-26
+ACC004,Wonderwell Games,Toys & Games,UK,AG002,2020-12-01
+ACC005,Merrymint Market,Retail,US East,AG009,2021-06-18
+ACC006,Zippy Learning,Education & EdTech,US East,,2022-07-16
+ACC007,Copperkettle Studios,Family Entertainment & Streaming,US East,AG006,2021-05-20
+ACC008,Driftwood Care,Baby & Toddler Care,APAC,AG003,2021-12-20
+ACC009,Pinwheel Playthings,Toys & Games,US West,AG010,2023-10-21
+ACC010,Rocket Pup Outfitters,Kids Apparel,US East,AG003,2024-09-18
+ACC011,Honeycomb Market,Retail,UK,,2020-10-17
+ACC012,Clover Parks,Theme Parks & Travel,US West,AG010,2024-04-01
+ACC013,Otter & Oak Outlet,Retail,UK,,2020-04-14
+ACC014,Quill Labs,Education & EdTech,UK,AG006,2020-04-01
+ACC015,Meadowlark Foods,Kids Food & Snacks,US West,AG005,2024-08-12
+ACC016,Willowbrook Getaways,Theme Parks & Travel,APAC,AG005,2024-09-10
+ACC017,Pebblestone Baby,Baby & Toddler Care,US East,,2024-12-12
+ACC018,Marigold Mobility,Automotive,US East,,2023-01-26
+ACC019,Figtree Outfitters,Kids Apparel,US East,,2025-05-12
+ACC020,Maple & Moss Motors,Automotive,UK,AG009,2020-05-30
+ACC021,Gumdrop Games,Toys & Games,APAC,,2024-12-01
+ACC022,Blue Kite Outfitters,Kids Apparel,APAC,AG004,2022-06-30
+ACC023,Wildflower Play+,Family Entertainment & Streaming,UK,AG009,2024-01-24
+ACC024,Bumblebee Toys,Toys & Games,US East,,2025-03-18
+ACC025,Lanternfish Foods,Kids Food & Snacks,US East,AG001,2021-07-26
+ACC026,Hopscotch Toys,Toys & Games,UK,,2021-09-01
+ACC027,Brightbloom Snacks,Kids Food & Snacks,US East,,2025-05-27
+ACC028,Bluebell Baby,Baby & Toddler Care,UK,AG004,2020-01-22
+ACC029,Wiggleworth Games,Toys & Games,US East,AG001,2020-02-08
+ACC030,Saffron Playthings,Toys & Games,US East,AG004,2021-02-23
+ACC031,Lullaby Lane Games,Toys & Games,US East,,2024-03-09
+ACC032,Firefly Foods,Kids Food & Snacks,US West,AG009,2020-02-06
+ACC033,Fernwood Playthings,Toys & Games,UK,AG004,2020-11-12
+ACC034,Treetop Pictures,Family Entertainment & Streaming,US East,AG001,2020-11-05
+ACC035,Pepperpot Pictures,Family Entertainment & Streaming,US East,AG008,2022-03-14
+ACC036,Juniper Play+,Family Entertainment & Streaming,APAC,AG008,2020-09-26
+ACC037,Button & Bow Toys,Toys & Games,APAC,AG009,2019-09-07
+ACC038,Harborview Learning,Education & EdTech,US East,AG009,2020-10-06
+ACC039,Tidepool Playthings,Toys & Games,US East,,2019-10-06
+ACC040,Tinkertown Learning,Education & EdTech,US West,AG010,2021-10-05
+ACC041,Cloudberry Baby,Baby & Toddler Care,US West,AG010,2025-05-04
+ACC042,Riverstone Stores,Retail,US East,AG004,2021-12-23
+ACC043,Larkspur Play+,Family Entertainment & Streaming,UK,AG002,2019-02-08
+ACC044,Sunnyside Play+,Family Entertainment & Streaming,APAC,,2021-05-23
+ACC045,Snugglebug Market,Retail,APAC,AG004,2023-02-22
+ACC046,Kitefield Snacks,Kids Food & Snacks,UK,AG010,2024-12-06
+ACC047,Kiddo Playthings,Toys & Games,US East,AG003,2021-12-19
+ACC048,Nimbus Toys,Toys & Games,UK,,2022-02-28
+ACC049,Moonpie Littles,Baby & Toddler Care,US East,AG005,2024-09-01
+ACC050,Cobblestone Market,Retail,US East,AG005,2019-06-30
+ACC051,Little Oak Toys,Toys & Games,UK,AG008,2025-03-09
+ACC052,Seashell Labs,Education & EdTech,US East,,2020-09-02
+ACC053,Puddlejump Stores,Retail,US West,,2020-06-06
+ACC054,Pip & Pop Games,Toys & Games,APAC,AG001,2023-01-05
+ACC055,Tiny Harbor Toys,Toys & Games,UK,AG009,2023-07-23
+ACC056,Acorn Essentials,Household CPG,US East,AG003,2020-12-26
+ACC057,Hazelnut Kids Wear,Kids Apparel,US East,AG007,2021-10-13
+ACC058,Tumbletown Kitchen,Kids Food & Snacks,US East,AG008,2021-06-30
+ACC059,Starling Games,Toys & Games,US East,AG004,2021-07-02
+ACC060,Sprout Toys,Toys & Games,US East,AG002,2022-02-17

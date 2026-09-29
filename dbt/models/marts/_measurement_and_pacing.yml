@@ -1,0 +1,55 @@
+version: 2
+
+models:
+  - name: stg_measurement__household_reach
+    description: Household-level measurement per CPM line (mock iSpot-style, SYNTHETIC).
+    columns:
+      - name: as_line_id
+        data_tests: [unique, not_null]
+      - name: incremental_households
+        description: Households reached that the advertiser's linear TV buy did not reach.
+
+  - name: mart_audience_measurement
+    description: >
+      Privacy-first audience measurement, one row per measured CPM line.
+      Household-level reach, frequency, incremental reach vs. linear,
+      co-viewing, and ON-TARGET CPM compared with a third-party
+      "households with kids" buy (CIMM, Jul 2026: ~42% accurate).
+    columns:
+      - name: as_line_id
+        data_tests: [unique, not_null]
+      - name: on_target_cpm
+        description: Delivered spend per 1,000 impressions in households with kids.
+      - name: third_party_on_target_cpm
+        description: >
+          Category benchmark CPM / third-party kids-household accuracy
+          (dbt var third_party_kids_hh_accuracy, default 0.42) - the effective
+          on-target cost of buying the audience via third-party data instead.
+      - name: on_target_cpm_savings_pct
+        description: 1 - on_target_cpm / third_party_on_target_cpm. Positive = Moonbug is cheaper per real family.
+      - name: incremental_reach_pct
+        description: Share of reached households NOT also reached by the advertiser's linear TV buy.
+      - name: coviewing_impression_pct
+        description: Share of impressions with an adult (the parent - the economic buyer) co-viewing.
+      - name: measurement_gap_pct
+        description: 1 - vendor impressions / ad server impressions. A normal gap is 1-5%.
+
+  - name: mart_line_pacing
+    description: >
+      In-flight pacing, one row per CPM line live on the as_of_date. Flags
+      lines projected to under-deliver while there's still time to fix them.
+      Flat Fee branded content is excluded (front-loaded by design).
+    columns:
+      - name: as_line_id
+        data_tests: [unique, not_null]
+      - name: pacing_index
+        description: Delivered to date / even-pacing expectation to date. 1.0 = exactly on pace.
+      - name: projected_delivery_rate
+        description: (Delivered to date + trailing 7-day daily run rate x days remaining) / booked impressions.
+      - name: projected_makegood_usd
+        description: Credit the advertiser would get at wrap if the projection holds (same <95% rule finance uses).
+      - name: pacing_status
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['Too early', 'At risk', 'Over-pacing', 'On track']

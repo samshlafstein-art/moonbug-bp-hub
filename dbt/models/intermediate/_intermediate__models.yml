@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: int_campaign_delivery
+    description: >
+      One row per booked line item on a won deal, joined to CRM via
+      `io_number`. Adds delivered totals (summed from daily delivery),
+      `delivery_rate` (delivered / booked), `effective_cpm`, and
+      `view_through_rate`. This is the model that surfaces the FAST
+      under-delivery pattern — group by `platform` and look at
+      `delivery_rate`.
+    columns:
+      - name: as_line_id
+        tests: [unique, not_null]
+      - name: delivery_rate
+        description: Delivered impressions divided by booked (CPM) or guaranteed (Flat Fee) amount. Values well under 1.0 on ended flights indicate under-delivery.
+
+  - name: int_invoice_reconciliation
+    description: >
+      One row per invoice, enriched with the account, agency/holding-company,
+      and that deal's aggregate delivery rate. Use `days_to_pay` grouped by
+      `holding_company` to see payment-speed patterns, and `is_missing_io_number`
+      to quantify the finance export's data-quality issue.
+    columns:
+      - name: invoice_no
+        tests: [unique, not_null]
+
+  - name: int_pipeline_snapshot
+    description: >
+      One row per opportunity (open or closed) with account, agency, and
+      owner context plus `weighted_amount_usd` (amount × probability). The
+      base model for current-pipeline and win-rate/cycle-time marts.
+    columns:
+      - name: opportunity_id
+        tests: [unique, not_null]

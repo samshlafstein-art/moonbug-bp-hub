@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: stg_market__category_benchmarks
+    description: Synthetic third-party-style market benchmarks by quarter, advertiser category, and platform — CPM, VTR, and estimated category spend. Use to compare Moonbug's own booked CPM/VTR against the category norm.

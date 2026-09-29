@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_research
+    schema: raw_research
+    tables:
+      - name: brand_lift_studies
+      - name: parent_panel

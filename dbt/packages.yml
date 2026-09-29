@@ -1,0 +1,2 @@
+# No external packages needed yet. Add dbt_utils here later if useful.
+packages: []
