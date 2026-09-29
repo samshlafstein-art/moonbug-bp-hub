@@ -72,4 +72,4 @@ export SUPABASE_DB_PASSWORD="..."
 cd dbt && dbt build
 ```
 
-To use the skill, connect Supabase in Claude and upload `skill/` as a skill.
+To use the skill, connect Supabase in Claude and upload `skill_file/` as a skill.
